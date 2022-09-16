@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #555358; /*Davys Grey*/
+  --secondary-color:  #CEA2AC; /*Tuscany*/
+  --accent1-color: #5F6062; /*Granite Gray*/
+  --accent2-color: #E56399; /*China Pink*/
+  --accent3-color: #D3F3EE; /*Light Cyan*/
+
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'Cormorant Unicase', serif;
+  --paragraph-font: 'Darker Grotesque', sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #555358; /*Davys Grey*//* headlines on a white background */
+  --headline-color-on-color: #E56399; /*China Pink*/ /* headlines on a colored background */
+  --paragraph-color-on-white: #000000; /*Oxford Blue*/ /* paragraph text on a white background */
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --paragraph-background-color: #CEA2AC; /*Tuscany*/
+  --nav-link-color: #E56399; /*China Pink*/
+  --nav-background-color: white;
+  --nav-hover-link-color:  #5F6062; /*Granite Gray*/
+  --nav-hover-background-color: white;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--primary-color);
+}
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+h2 {
+  font-family: 'Cormorant Unicase', serif;
+  color: #555358; /*Davys Grey*/
+  font-size: 35px;
+
+}
+
+h3 {
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #CEA2AC; /*Tuscany*/
+
+}
+
+h4 {
+  font-family: 'Cormorant Unicase', serif;
+  color: #5F6062; /*Granite Gray*/
+  font-size: 20px;
+
+}
+
+h5 {
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #555358; /*Davys Grey*/
+  font-size: 20px;
+
+}
+
+h6 {
+  font-family: 'Darker Grotesque', serif;
+  color: #E56399; /*China Pink*/
+  font-size: 15px;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: #000000; /*Black*/
+  padding: 1em;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #D3F3EE; /*Light Cyan*/;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+.accent3{
+  background-color: var(--accent3-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
