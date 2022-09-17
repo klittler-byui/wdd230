@@ -1,14 +1,23 @@
 const date1 = document.querySelector("#date1");
 
 try {
-  const options = {
-    weekday: "short",
-    day: "numberic",
-    month: "short",
-    year: "numeric"
-  };
-  date1.innerHTML = `Last Updated:  <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
+	const options = {
+		day: "numeric",
+		month: "numeric",
+		year: "numeric"
+	};
+	date1.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
 } catch (e) {
-  alert("Error.  Last updated JS code not working");
+	alert("Error with FULL DATE code or your browser does not support Locale");
+}
 
+const copyYr = document.querySelector("#copyYr");
+// Try to complete the method with options
+try {
+	const options = {
+		year: "numeric"
+	};
+	copyYr.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
+} catch (e) {
+	alert("Error with CURRENT YEAR code or your browser does not support Locale");
 }
