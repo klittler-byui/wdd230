@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* Color palette */
   --primary-color: #555358; /*Davys Grey*/
   --secondary-color:  #CEA2AC; /*Tuscany*/
   --accent1-color: #5F6062; /*Granite Gray*/
@@ -9,11 +9,11 @@
   --accent3-color: #D3F3EE; /*Light Cyan*/
 
 
-  /* change the values below to your chosen font(s) */
+  /* Fonts */
   --heading-font: 'Cormorant Unicase', serif;
   --paragraph-font: 'Darker Grotesque', sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
+  /* Headline Color Palett */
   --headline-color-on-white: #555358; /*Davys Grey*//* headlines on a white background */
   --headline-color-on-color: #E56399; /*China Pink*/ /* headlines on a colored background */
   --paragraph-color-on-white: #000000; /*Oxford Blue*/ /* paragraph text on a white background */
@@ -25,115 +25,206 @@
   --nav-hover-background-color: white;
 }
 
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-html {
-  background-color: var(--primary-color);
-}
 body {
-  max-width: 940px;
-  margin: 0 auto;
   background-color: white;
-  padding: 1em;
+  font-family: 'Darker Grotesque', sans-serif;
+  padding: 5px 25px;
+  font-size: 20px;
+  margin: 0;
+  color: #000000;
 }
-img {
-  max-width: 100%;
-}
+
+/* FONTS & STYLES */
+
 h1 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: 'Comorant Unicase', serif;
+  color: #555358; /*Davys Grey*/
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Cormorant Unicase', serif;
-  color: #555358; /*Davys Grey*/
+  color: #E56399; /*China Pink*/
   font-size: 35px;
-
 }
 
 h3 {
   font-family: 'Darker Grotesque', sans-serif;
   color: #CEA2AC; /*Tuscany*/
+  font-size: 25px;
 
 }
 
 h4 {
   font-family: 'Cormorant Unicase', serif;
-  color: #5F6062; /*Granite Gray*/
+  color: #555358; /* Davys Grey */
   font-size: 20px;
 
 }
 
 h5 {
   font-family: 'Darker Grotesque', sans-serif;
-  color: #555358; /*Davys Grey*/
+  color: #5F6062; /*Granite Gray*/
   font-size: 20px;
 
 }
 
 h6 {
   font-family: 'Darker Grotesque', serif;
-  color: #E56399; /*China Pink*/
+  color: #CB8589; /*Old Rose*/
   font-size: 15px;
 }
 
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
-
 p {
-  font-family: var(--paragraph-font);
-  color: #000000; /*Black*/
-  padding: 1em;
+  font-family: 'Darker Grotesque', serif;
+  color:   color: #555358; /* Davys Grey */
   font-size: 25px;
   font-weight: 400;
 }
 
-.colors {
-  width: 100%;
-  min-width: 350px;
-  margin: auto;
-  text-align: center;
-}
-.colors th {
-  background-color: #D3F3EE; /*Light Cyan*/;
-}
-.colors td{
-  width: 25%;
-  height: 3em;
+a ul {
+  text-decoration: none;
 }
 
-.primary {
-  background-color: var(--primary-color);
-}
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2{
-  background-color: var(--accent2-color);
-}
-.accent3{
-  background-color: var(--accent3-color);
+/* NAVIGATION */
+
+a {color: #555358}; /* Davys Grey */
+
+nav {
+  color: #555358; /* Davys Grey */
+  padding-top: 1em;
+  text-align: right;
+  vertical-align: middle;
+  grid-template-columns: repeat(auto-fit, minmax(5fr, 1fr));
+
+
 }
 
-p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+nav a {
+  color: #555358; /* Davys Grey */
+  font-size: .85em;
+  text-decoration: none;
 }
 
-/* INDEX.HTML PAGE */
-.index {
+nav ul {
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(5fr, 1fr));
+  margin: 0;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav a:hover {color: #CEA2AC}; /*Tuscany*/
+
+.sub-nav {
+
+  color: white;
+  background: #DBD8B3; /*Pale Spring Bud*/
+  display:  grid;
+  grid-template-columns: 1fr ;
+
+
+}
+
+.sub-nav ul {
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+  margin: 0;
+  align-items: center;
+  Text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.sub-nav a{
+  text-decoration: none;
+}
+
+.sub-nav a:hover {
+  color: white;
+}
+
+
+/*  HEADER + BANNER BOX */
+
+body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap; 20px;
-  text
+  background: #ffffff;
+}
+
+header {
+  Background: #ffffff;
+}
+
+
+.banner-box {
+  grid-row: 1;
+  grid-column: 2/5;
+  background:  #555358; /* Davys Grey */
+  border-radius: 14px;
+  border-style: solid;
+  border-color: white;
+}
+
+.banner-box img {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 10px;
+  padding: 0px;
+  justify-self: right;
+  border-radius: 14px;
+  border-color: ; /* #CEA2AC Tuscany*/
+  border-style: ;
+
+}
+
+.banner-box h1 {
+  grid-column: 2/5;
+  grid-row: 1;
+  text-align: left;
+  color: #ffffff; /* white */
+}
+
+.the-list{
+  grid-row: 2;
+  grid-column: 2/5;
+}
+
+.lesson-links {
+  grid: row 3;
+  grid-column: 2/5;
+}
+
+.lesson-links a {
+  color: #E56399; /*China Pink*/
+  font-size: 22px;
+  font-weight: 400;
+}
+.the-list hr {
+  color: #CEA2AC; /*Tuscany*/
+}
+
+footer {
+  grid-row: 4;
+  grid-column: 2/5;
+  background: #555358; /* Davys Grey */
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 14px;
+  border-style: solid;
+
+
+}
+
+footer p{
+  font-size: 18px;
 }
