@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
 
 :root {
   /* Color palette */
@@ -23,4 +22,66 @@
   --nav-background-color: white;
   --nav-hover-link-color:  #5F6062; /*Granite Gray*/
   --nav-hover-background-color: white;
+}
+
+/* NAVIGATION */
+
+a {color: #555358}; /* Davys Grey */
+
+nav {
+  color: #555358; /* Davys Grey */
+  padding-top: 1em;
+  text-align: right;
+  vertical-align: middle;
+  grid-template-columns: repeat(auto-fit, minmax(5fr, 1fr));
+
+
+}
+
+nav a {
+  color: #555358; /* Davys Grey */
+  font-size: .85em;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(5fr, 1fr));
+  margin: 0;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav a:hover {color: #CEA2AC}; /*Tuscany*/
+
+.sub-nav {
+
+  color: white;
+  background: #DBD8B3; /*Pale Spring Bud*/
+  display:  grid;
+  grid-template-columns: 1fr ;
+
+
+}
+
+.sub-nav ul {
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+  margin: 0;
+  align-items: center;
+  Text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.sub-nav a{
+  text-decoration: none;
+}
+
+.sub-nav a:hover {
+  color: white;
 }

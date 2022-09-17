@@ -1,14 +1,13 @@
-const date1 = document.querySelector("#date1");
+const date2 = document.querySelector("#date2");
 
 try {
 	const options = {
-		weekday: "long",
+		weekday: "short",
 		day: "numeric",
-		month: "long",
+		month: "short",
 		year: "numeric"
 	};
-	date1.textContent = new;
-  Date().toLocaleDateString("en-UK", options);
+	date2.innerHTML = `Today is <span class="highlight">${new Date().toLocaleDateString("en-US", options)}</span>!`;
 } catch (e) {
-	alert("Error with code or your browser does not support Locale");
+	alert("Error with current date code");
 }

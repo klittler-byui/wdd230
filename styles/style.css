@@ -1,29 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500;600&family=Darker+Grotesque&display=swap');
 
-:root {
-  /* Color palette */
-  --primary-color: #555358; /*Davys Grey*/
-  --secondary-color:  #CEA2AC; /*Tuscany*/
-  --accent1-color: #5F6062; /*Granite Gray*/
-  --accent2-color: #E56399; /*China Pink*/
-  --accent3-color: #D3F3EE; /*Light Cyan*/
-
-
-  /* Fonts */
-  --heading-font: 'Cormorant Unicase', serif;
-  --paragraph-font: 'Darker Grotesque', sans-serif;
-
-  /* Headline Color Palett */
-  --headline-color-on-white: #555358; /*Davys Grey*//* headlines on a white background */
-  --headline-color-on-color: #E56399; /*China Pink*/ /* headlines on a colored background */
-  --paragraph-color-on-white: #000000; /*Oxford Blue*/ /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #CEA2AC; /*Tuscany*/
-  --nav-link-color: #E56399; /*China Pink*/
-  --nav-background-color: white;
-  --nav-hover-link-color:  #5F6062; /*Granite Gray*/
-  --nav-hover-background-color: white;
-}
 
 body {
   background-color: white;
@@ -80,7 +56,7 @@ h6 {
 
 p {
   font-family: 'Darker Grotesque', serif;
-  color:   color: #555358; /* Davys Grey */
+  color: #555358; /* Davys Grey */
   font-size: 25px;
   font-weight: 400;
 }
@@ -89,80 +65,23 @@ a ul {
   text-decoration: none;
 }
 
-/* NAVIGATION */
 
-a {color: #555358}; /* Davys Grey */
-
-nav {
-  color: #555358; /* Davys Grey */
-  padding-top: 1em;
-  text-align: right;
-  vertical-align: middle;
-  grid-template-columns: repeat(auto-fit, minmax(5fr, 1fr));
+/*  HOME PAGE GRID LAYOUT */
 
 
-}
-
-nav a {
-  color: #555358; /* Davys Grey */
-  font-size: .85em;
-  text-decoration: none;
-}
-
-nav ul {
-  list-style: none;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(5fr, 1fr));
-  margin: 0;
-  align-items: center;
-  text-decoration: none;
-}
-
-nav a:hover {color: #CEA2AC}; /*Tuscany*/
-
-.sub-nav {
-
-  color: white;
-  background: #DBD8B3; /*Pale Spring Bud*/
-  display:  grid;
-  grid-template-columns: 1fr ;
-
-
-}
-
-.sub-nav ul {
-  list-style: none;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
-  margin: 0;
-  align-items: center;
-  Text-align: center;
-  text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-}
-
-.sub-nav a{
-  text-decoration: none;
-}
-
-.sub-nav a:hover {
-  color: white;
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  Background: #ffffff;
 }
 
 
-/*  HEADER + BANNER BOX */
-
-body {
+main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   background: #ffffff;
 }
 
-header {
-  Background: #ffffff;
-}
 
 
 .banner-box {
@@ -177,20 +96,27 @@ header {
 .banner-box img {
   grid-column: 2;
   grid-row: 1;
-  margin: 10px;
+  margin: 1em 1em 1em 1em;
   padding: 0px;
   justify-self: right;
   border-radius: 14px;
-  border-color: ; /* #CEA2AC Tuscany*/
-  border-style: ;
+  box-shadow: 2px 2px 4px #2C3333; /* Davys Grey */
+
+
 
 }
 
-.banner-box h1 {
+h1 {
+  color: #ffffff; /* white */
+}
+
+.headline {
   grid-column: 2/5;
   grid-row: 1;
   text-align: left;
-  color: #ffffff; /* white */
+  text-shadow: 2px 2px 4px #2C3333;
+  padding-top: 2em;
+
 }
 
 .the-list{
@@ -209,22 +135,26 @@ header {
   font-weight: 400;
 }
 .the-list hr {
-  color: #CEA2AC; /*Tuscany*/
+  border-color: #555358; /* Davys Grey */
+  border-style: dashed;
+  border-width: thin;
+
 }
 
 footer {
-  grid-row: 4;
-  grid-column: 2/5;
-  background: #555358; /* Davys Grey */
-  text-align: center;
-  color: #ffffff;
-  font-size: 12px;
-  border-radius: 14px;
-  border-style: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 
 }
 
 footer p{
+  grid-row: 4;
+  grid-column: 2/5;
+  background: #555358; /* Davys Grey */
+  text-align: center;
+  border-radius: 14px;
+  padding: 1em;
   font-size: 18px;
+  color: #ffffff;
 }
