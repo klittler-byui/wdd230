@@ -7,9 +7,7 @@ try {
 		year: "numeric"
 	};
 	date1.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
-} catch (e) {
-	alert("Error with FULL DATE code or your browser does not support Locale");
-}
+} catch (e) {}
 
 const copyYr = document.querySelector("#copyYr");
 // Try to complete the method with options
@@ -18,6 +16,4 @@ try {
 		year: "numeric"
 	};
 	copyYr.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
-} catch (e) {
-	alert("Error with CURRENT YEAR code or your browser does not support Locale");
-}
+} catch (e) {}
