@@ -1,0 +1,166 @@
+body {
+  font-size: 16px;
+  font-family: font-family: 'Jost', sans-serif;
+  padding: 15px;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
+  padding: 00 15px 0 15px;
+}
+
+a {
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: #DF7861;
+  padding: 5px 15px 5px 15px;
+}
+
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 15px 0 15px;
+}
+
+h2 {
+  font-family: 'Six Caps', sans-serif;
+  color: #000000;
+  font-size: 40px;
+  padding: 5px 15px 5px 15px;
+  background-color: #A7D2CB;
+}
+
+h3 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  padding: 00 15px 0 15px;
+
+}
+
+h4 {
+  font-family: 'Jost', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 15px 10px 15px;
+
+}
+
+h5 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  padding: 00 15px 0 15px;
+
+}
+
+h6 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  padding: 00 15px 0 15px;
+}
+
+header {
+  background-color: #DF7861;
+  color: #000000;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 16px;
+  max-width: 767px;
+  margin: 0 auto;
+
+}
+
+footer {
+  background-color: #DF7861;
+  color: #ffffff;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 16px 5px 16px 5px;
+  max-width: 767px;
+  margin: 20px auto;
+
+}
+
+footer p {
+  color: #ffffff;
+
+}
+
+
+/*  SMALL-VIEW for phone */
+
+main{
+  max-width: 767px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
+
+main section h2 {
+  color: #536878;
+}
+
+main section {
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  background-color: #eee;
+  border-radius: 16px;
+  align-content:  center;
+
+
+}
+
+main section:nth-child(2) {
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  background-color: #eee;
+  border-radius: 16px;
+  align-content:  center;
+}
+
+main section:nth-child(3) {
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  background-color: #eee;
+  border-radius: 16px;
+  align-content:  center;
+}
+
+
+.contrast {
+  box-shadow: 0 0 15px #333;
+  margin: 15px;
+}
+
+.repetition {
+  box-shadow: 0 0 15px #333;
+  margin: 15px;
+
+}
+
+.whitepsace {
+  box-shadow: 0 0 15px #333;
+  margin: 15px;
+
+}
+
+main section picture img {
+  width: 90%;
+  height: auto;
+
+}

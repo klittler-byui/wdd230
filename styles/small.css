@@ -2,40 +2,53 @@
 body {
   background-color: white;
   font-family: 'Darker Grotesque', sans-serif;
-  padding: 5px 25px;
-  font-size: 20px;
-  margin: 0;
+  padding: 1rem;
+  font-size: 16px;
   color: #000000;
+  max-width: 767px;
+  margin: 0 auto;
+  float: center;
 }
 
 /* FONTS & STYLES */
+p {
+  font-family: 'Darker Grotesque', serif;
+  font-weight: 400;
+}
 
 h1 {
-  font-family: 'Darker Grotesque', serif;
+  font-family: 'Cormorant Unicase', serif;
   color: #555358; /*Davys Grey*/
-  font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 25px;
   text-align: center;
+}
+
+header h1 {
+  font-family: 'Cormorant Unicase', serif;
+  color: #ffffff; /* white */
+  font-size: 25px;
+  text-shadow: 2px 2px 4px #2C3333;
+  padding: 0 0 25px 0;
+
 }
 
 h2 {
   font-family: 'Cormorant Unicase', serif;
   color: #E56399; /*China Pink*/
-  font-size: 35px;
+  font-size: 20px;
 }
 
 h3 {
   font-family: 'Darker Grotesque', sans-serif;
   color: #CEA2AC; /*Tuscany*/
-  font-size: 25px;
+  font-size: 15px;
 
 }
 
 h4 {
   font-family: 'Cormorant Unicase', serif;
   color: #555358; /* Davys Grey */
-  font-size: 20px;
+  font-size: 15px;
 
 }
 
@@ -49,15 +62,10 @@ h5 {
 h6 {
   font-family: 'Darker Grotesque', serif;
   color: #CB8589; /*Old Rose*/
-  font-size: 15px;
+  font-size: 10px;
 }
 
-p {
-  font-family: 'Darker Grotesque', serif;
-  color: #555358; /* Davys Grey */
-  font-size: 25px;
-  font-weight: 400;
-}
+
 
 a ul {
   text-decoration: none;
@@ -68,64 +76,40 @@ a ul {
 
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  Background: #ffffff;
-}
 
-
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  background: #ffffff;
-}
-
-
-
-.banner-box {
-  grid-row: 1;
-  grid-column: 2/5;
-  background:  #555358; /* Davys Grey */
+  text-align: center;
+  border-radius: 16px;
+  max-width: 767px;
+  margin: 0 auto;
+  float: center;
+  background-color: #555358; /* Davys Grey */
   border-radius: 14px;
-  border-style: solid;
-  border-color: white;
+
+  /* justify-content: center; */
 }
 
-.banner-box img {
-  grid-column: 2;
-  grid-row: 1;
-  margin: 1em 1em 1em 1em;
-  padding: 0px;
-  justify-self: right;
+
+
+header img{
+  float: center;
+  margin: 15px 15px 0 15px;
+  padding: 0;
   border-radius: 14px;
-  box-shadow: 2px 2px 4px #2C3333; /* Davys Grey */
-
-
-
-}
-
-h1 {
-  color: #ffffff; /* white */
-}
-
-.headline {
-  grid-column: 2/5;
-  grid-row: 1;
-  text-align: left;
-  text-shadow: 2px 2px 4px #2C3333;
-  padding-top: 2.5em;
-  margin-left: 2em;
+  box-shadow: 2px 2px 4px #2C3333;
+  width: 150px;
+  height: auto;
 
 }
+
 
 .the-list{
   grid-row: 2;
-  grid-column: 2/5;
+  grid-column: 1;
 }
 
 .lesson-links {
   grid: row 3;
-  grid-column: 2/5;
+  grid-column: 1;
 }
 
 .lesson-links a {
@@ -141,20 +125,16 @@ h1 {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   color: #ffffff;
 
 
 }
 
 footer p{
-  grid-row: 4;
-  grid-column: 2/5;
   background: #555358; /* Davys Grey */
   text-align: center;
   border-radius: 14px;
   padding: 1em;
-  font-size: 18px;
+  font-size: 14px;
   color: #ffffff;
 }
