@@ -7,7 +7,7 @@ body {
   color: #000000;
   max-width: 767px;
   margin: 0 auto;
-  float: center;
+
 }
 
 /* FONTS & STYLES */
@@ -81,7 +81,6 @@ header {
   border-radius: 16px;
   max-width: 767px;
   margin: 0 auto;
-  float: center;
   background-color: #555358; /* Davys Grey */
   border-radius: 14px;
 
@@ -91,7 +90,7 @@ header {
 
 
 header img{
-  float: center;
+
   margin: 15px 15px 0 15px;
   padding: 0;
   border-radius: 14px;
@@ -99,17 +98,6 @@ header img{
   width: 150px;
   height: auto;
 
-}
-
-
-.the-list{
-  grid-row: 2;
-  grid-column: 1;
-}
-
-.lesson-links {
-  grid: row 3;
-  grid-column: 1;
 }
 
 .lesson-links a {
