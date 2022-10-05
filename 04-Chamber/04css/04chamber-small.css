@@ -6,7 +6,7 @@ nav {
   background-color: #1E2D2F; /* Charleston Green */
  /* background-color: #A85751; /* Redwood */
 	text-align: left;
-  align-content: left;
+
   color: white;
   display: flex;
   flex-direction: column;
@@ -156,12 +156,6 @@ button a {
 
 }
 
-.facebook{
-display: flex;
-}
-.twitter{
-  display: flex;
-  }
 
 
 
@@ -350,8 +344,8 @@ table, th, td {
   background-color: #EABDA8;
   border: 1px solid #EABDA8;
   padding: 2vw;
-  margin: 1em 0;
-   min-height: 220px;
+  margin: 1rem 0;
+  min-height: 220px;
 
 }
 
@@ -365,54 +359,21 @@ table, th, td {
 }
 /***** ID IDs ******/
 
-.heroBox {
   /** HERO - shows on mobile**/
 
-}
-
-.eventBox {
   /** EVENT - shows on mobile**/
 
-}
-
-.weatherBox {
   /** WEATHER - shows on mobile**/
 
-}
-
-.newsBox {
   /** NEWS RELEASE - shows on mobile**/
 
-}
-
-
-.spot1 {
   /** SPOTLIGHT 1 - shows on mobile**/
 
-}
-
-.spot2 {
   /** SPOTLIGHT 2 - shows on mobile**/
 
-}
-
-.spot3 {
-  /** SPOTLIGHT 3 - does NOT show on mobile**/
-  display: none;
-
-}
-
-.joinBox {
-  /** JOIN - does NOT show on mobile**/
-  display: none;
-
-
-}
+  /** SPOTLIGHT 3 & JOIN - does NOT show on mobile.  **/
+  /** hidden using class .hidden-sm **/
 
 .hidden-sm{
   display: none;
-}
-
-.hidden-md{
-  display:none;
 }
