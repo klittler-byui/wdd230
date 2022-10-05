@@ -38,8 +38,29 @@
   .banner-pic-home {
     display: none;}
 
-    ** HOME PAGE **/
-    /**** GRID LAYOUT ****/
+
+/********************** HOME PAGE ********************/
+
+
+/**** GRID LAYOUT ****/
+
+
+.homePage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 1em;
+}
+
+
+
+
+.spots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(200px, auto);
+}
+
 
 
 
