@@ -1,0 +1,33 @@
+/**   Media Queries Large desktop views **/
+@media (min-width: 48em) {
+
+
+	  /***** NAV MENU ****/
+nav {
+	align-content: right;
+	text-align: right;
+}
+
+		nav button {display: none;}
+
+		nav ul#primaryNav {
+			display: flex;
+			}
+
+
+
+	.banner-pic-home {
+    display: block;}
+
+/**** GRID LAYOUT ****/
+
+
+
+
+
+
+
+
+
+
+}

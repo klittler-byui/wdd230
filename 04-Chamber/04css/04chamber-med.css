@@ -1,0 +1,50 @@
+/** Media Queries for tablet view **/
+@media (min-width: 37.5em) {
+
+  /**** HEADER LOGO AREA ****/
+  .logo-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: left;
+  }
+
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .logo-box button {
+    grid-column: 3;
+    grid-row: 1;
+    margin-bottom: 0;
+    width: 225px;
+    margin-right: 0;
+    margin-left:auto;
+  }
+
+  .headerDate {
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left:auto;
+    padding-right: .5rem;
+  }
+
+
+
+  .banner-pic-home {
+    display: none;}
+
+    ** HOME PAGE **/
+    /**** GRID LAYOUT ****/
+
+
+
+
+
+
+
+}
