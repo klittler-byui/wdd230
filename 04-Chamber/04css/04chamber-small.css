@@ -167,7 +167,10 @@ header {
   display: none;
 }
 
+/**** FOOTER ****/
+
 footer {
+  display: block;
   background-color: #1E2D2F; /* Charleston Green */
   text-align: left;
   color: white;
@@ -176,15 +179,28 @@ footer {
 
 footer a {
   color: #EABDA8; /* Desert Sand */
+  font-size: 12px;
+  padding: 20px 10px 60px 0;
+  margin: 0 0 5px 45px;
 }
 
 footer p {
-  margin: 0 0 5px 25px;
+  margin: 0 0 5px 45px;
   font-family: 'Jost', sans-serif;
   font-size: 12px;
 }
 footer h6 {
-  margin: 20px;
+  margin: 45px;
+  color: black;
+}
+
+footer hr{
+  margin: 20px 45px;
+  border-color: grey;
+}
+
+footer img {
+  margin: 0 0 5px 0;
 }
 /* BODY & MAIN */
 body {
