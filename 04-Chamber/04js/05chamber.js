@@ -45,15 +45,16 @@ x.onclick = toggleMenu;
 
 
 // TUES WED HERO BANNER //
-let dayOfweek = new Date().getDay();
 
-          let meetNgreet;
-            if (dayOfweek != 3){
-              meetNgreet = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
-            }
 
-            else  (dayOfweek == 3){
-              meetNgreet = "Join us TONIGHT for the chamber meet and greet at 7:00 p.m.";
-            }
-
-            document.getElementById("meetPut").style.display = "block";
+let bannerDay = new Date().getDay();
+const announcement = document.querySelector('#announcement');
+if (bannerDay === 1 || bannerDay === 2){
+announcement.style.display = 'block';
+} else{
+announcement.style.display = 'none';
+}
+const close = document.querySelector('#close');
+close.addEventListener('click', () => {
+banner.style.display = 'none';
+})
