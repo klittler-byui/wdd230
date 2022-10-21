@@ -15,12 +15,12 @@
   <title>HOME | Littlerville Chamber of Commerce</title>
 </head>
 
-<body onload="meetGReet">
+<body>
   <div class="heading-nav">
     <header>
       <div class="logo-box">
 
-        <a class="logo" href="l3index.html"><img src="04chamberimages/littlervilleCC.png" alt="Chamber of Commerce logo" width="250"></a>
+        <a class="logo" href="l3index.html"><img src="04chamberimages/LOGO-2-littlervilleCC.webp" alt="Chamber of Commerce logo" width="250"></a>
 
         <button id="headerBtn" onclick="document.location='join.html'">Join the Chamber</button>
 
@@ -59,7 +59,7 @@
 
 
 <div class="announceBanner">
-      <div id="announcement">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</strong></div>
+      <div id="announcement">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     </div>
 
 
@@ -72,9 +72,12 @@
   <main class="homePage">
 
       <div class="homeBox heroBox meetNgreet">
-        <img class="heroImgMed hiMhide" src="04chamberimages/rsz_1rsz_1rsz_together.jpeg" alt="View of city wall with TOGETHER graffiti on wall">
+        <picture class="heroPhoto">
+          <source media="(max-width:500px)" srcset="04chamberimages/CROP-wdd230-org-500wp.webp">
+          <source media="(max-width:800px)" srcset="04chamberimages/CROP-wdd230-org-800wp.webp">
+          <img src="04chamberimages/CROP-X-wdd230-org-1100jp.webp" alt="Business professionals engaged in conversation.">
+        </picture>
 
-        <img class="heroImgFull hiFhide" src="04chamberimages/FULL_together.jpeg" alt="View of city wall with TOGETHER graffiti on wall">
         <button class="heroBtn">Join the Chamber</button>
 
 
@@ -82,7 +85,7 @@
 
     <div class="homeBox eventBox">
       <h3>Grand Opening!</h3>
-      <img src="https://utfb-images.untappd.com/stlg4s1ug5mwx57tyk0pss568zbd?auto=compress" width="100">
+      <img src="https://utfb-images.untappd.com/stlg4s1ug5mwx57tyk0pss568zbd?auto=compress" width="100" alt="Fat Cats logo">
 
       <p>Join us for the ribbon cutting and grand opening on Friday at 4:45 p.m.</p>
       <a href="https://fo-fo.facebook.com/events/fatcats-queen-creek/grand-opening-event/125589586167445/" target="_blank">more info...</a>
@@ -91,14 +94,14 @@
     <div class="homeBox weatherBox">
       <h3 class="weatherH3">Weather</h3>
       <div class="weatherMain">
-        <p class="wIcon">🌤</p>
-        <p class="temp">45&#8451;</p>
-        <p class="wStatus"><strong>Partly Cloudy</strong></p>
+        <span class="temp">🌤 45&#8457;</span>
+        <br>
+        <span class="wStatus"><strong>Partly Cloudy</strong></span>
       </div>
       <hr>
       <div class="weatherMinor">
-        <p>Wind Speed: 2.5 km/h</p>
-        <p>Wind Chill: N/A</p>
+        <span>Wind Speed: 15 MPH</span><br>
+        <div id="output"></div>
       </div>
     </div>
 
@@ -110,7 +113,7 @@
 
     <div class="homeBox spotBox spots">
         <div class="spotlight spot1">
-          <img class="spotLogos newViewLogo" src="https://lirp.cdn-website.com/57046dee/dms3rep/multi/opt/d04dfec3-c7de-4bd1-b4e7-e3fd2f709bb5-1920w.jpeg" width="60">
+          <img class="spotLogos newViewLogo" src="https://lirp.cdn-website.com/57046dee/dms3rep/multi/opt/d04dfec3-c7de-4bd1-b4e7-e3fd2f709bb5-1920w.jpeg" width="60" alt="NewView Moving logo">
           <p><i>"We get it there for you!"</i></p>
           <hr>
           <p class="smallP">Hello@NewViewMoving.com</p>
@@ -119,7 +122,7 @@
         </div>
 
         <div  class="spotlight spot2">
-          <img class="spotLogos" src="https://code.org/images/logo.svg" width="60">
+          <img class="spotLogos" src="https://code.org/images/logo.svg" width="60" alt="Code.org Logo">
           <p><i>An after school coding instructional program</i></p>
           <hr>
           <p class="smallP">contact@code.org</p>
@@ -127,7 +130,7 @@
         </div>
 
         <div class="spotlight spot3 hidden-sm">
-          <img class="spotLogos3" src="https://images.squarespace-cdn.com/content/v1/53e4101fe4b0a79b40475e1a/1475480272686-67FMP9GLIB75MQY6FOYI/Treehouse+Experts.png?format=1500w" width="120">
+          <img class="spotLogos3" src="https://images.squarespace-cdn.com/content/v1/53e4101fe4b0a79b40475e1a/1475480272686-67FMP9GLIB75MQY6FOYI/Treehouse+Experts.png?format=1500w" width="120" alt="Treehouse Experts Logo">
           <p><i>Creating custom treetop structures for kids and adults</i></p>
           <hr>
           <p class="smallP">info@treehouseexperts.com</p>
@@ -148,8 +151,8 @@
   </main>
 
   <footer>
-    <a class="footLogo" href="l3index.html"><img src="04chamberimages/CClogo - WHITE.png" alt="Chamber of Commerce logo" width="175
-      "></a>
+    <a class="footLogo" href="l3index.html">
+      <img src="04chamberimages/CClogo-WHITE.png" alt="Chamber of Commerce logo" style="width:175px"></a>
 
     <div class="footTop">
       <div class="address">
@@ -158,21 +161,23 @@
       </div>
       <div class="emailPhone">
        <p class="phone">Tel:  480.123.4567</p>
-        <a class="email" href="mailto:info@littlerville.org" target="_blank">info@littlerville.org</a></p>
+        <a class="email" href="mailto:info@littlerville.org" target="_blank">info@littlerville.org</a>
       </div>
       <div class="map">
       <a class="locMap" href="https://goo.gl/maps/cY5Z1T9skwNxipWbA" target="_blank">Location Map</a>
     </div>
       </div>
 
-<hr>
+    <hr>
     <div class="footBot">
        <p>&copy; <span id="copyYr"></span> Littlerville Chamber of Commerce   |  Kori Littler  |  WDD 230 Project  |  Last Updated: <span id="date1"></span></p>
      </div>
       </footer>
-
+</div>
 
   <script src="04js/06chamber.js"></script>
+  <script src="04js/windchill.js"></script>
+
 
 </body>
 </html>

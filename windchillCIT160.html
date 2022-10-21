@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>W10 Functions | Wind Chill</title>
+    <script>
+    /*
+    Input: Text fields that take numbers for the temperature and wind speed.
+    Processing: Write a function (windChill()) that calcualtes the wind chill factor based on       parameters of temperature and wind speed and returns the wind chill.
+    Processing: Write a function (doInputOutput) that applies the values for temperature and wind speed by the user and calls upong the function windChill() to calculate the wind chill.
+    Output: Display the wind chill for the user.
+    */
+
+        function doInputOutput(){
+            let t = parseFloat(document.getElementById("temperature").value);
+            let s = parseFloat(document.getElementById("windSpeed").value);
+            let result = windChill(t, s);
+            document.getElementById("output").innerHTML = "<strong>The wind chill is: </strong>" + result  + "<sup>o</sup>F";
+        }
+
+        function windChill(temp, speed){
+            // Use provided formula to calculate wind chill.
+            //  f = 35.74 + 0.6215t - 35.75s^0.16 + 0.4275t s^0.16
+            let farenheit = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+            console.log(farenheit);
+
+            // Round to the nearest whole number
+            let digits = 0;
+            let multiplier = Math.pow(10, digits);
+            let f = Math.round(farenheit * multiplier) /  multiplier;
+            return f;
+
+        }
+
+
+    </script>
+  </head>
+  <body>
+    <h1>Wind Chill Factor</h1>
+      <h5>To determine the wind chill, provide the temperature and wind speed in the boxes below</h5>
+    <input type="text" id="temperature" size="4">  Temperature (Fahrenheit) <br>
+      <br>
+    <input type="text" id = "windSpeed" size="4">  Wind Speed (MPH)  <br>
+      <br>
+    <button onclick="doInputOutput()">Find the Wind Chill</button><br>
+      <br>
+    <div id="output"></div>
+
+
+  </body>
+
+</html>
