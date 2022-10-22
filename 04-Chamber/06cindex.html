@@ -15,7 +15,7 @@
   <title>HOME | Littlerville Chamber of Commerce</title>
 </head>
 
-<body>
+<body onload="getChill()">
   <div class="heading-nav">
     <header>
       <div class="logo-box">
@@ -96,13 +96,20 @@
     <div class="homeBox weatherBox">
       <h3 class="weatherH3">Weather</h3>
       <div class="weatherMain">
-        <span class="temp">🌤 45&#8457;</span>
-        <br>
+        <div class="tInput" role="separator">
+          <span class="temp">🌤</span> <span id="input1">45</span> &#8457;
+        </div>
+
+
         <span class="wStatus"><strong>Partly Cloudy</strong></span>
       </div>
       <hr>
       <div class="weatherMinor">
-        <span>Wind Speed: 15 MPH</span><br>
+
+        <div class="sInput" role="separator">
+          <span class="speed">Wind Speed: </span> <span id="input2">15</span> MPH
+        </div>
+
         <div id="output"></div>
       </div>
     </div>

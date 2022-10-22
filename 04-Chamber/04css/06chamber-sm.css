@@ -355,6 +355,7 @@ main picture.heroPhoto img{width:100%; }
 .weatherMain {
   align-items: center;
   text-align: center;
+  font-size: 55px;
 }
 
 .weatherMinor {
@@ -366,19 +367,17 @@ main picture.heroPhoto img{width:100%; }
   line-height: 80%;
 }
 
-.wIcon {
-
-  font-size: 4.5rem;
-  padding: 0;
-  margin: 0;
-}
 
 .temp {
 
-  font-size: 4rem;
+  font-size: 65px;
   padding: .5rem;
-  margin-top: 1rem;
+  margin-top: 45px;
 
+}
+
+.input1 {
+  font-size: 65px; ;
 }
 
 .wStatus {
