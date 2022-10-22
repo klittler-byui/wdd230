@@ -38,6 +38,8 @@
   grid-row: 1;
 }
 
+main picture.heroPhoto img{max-height: 399px;}
+
 /* .heroImgFull {
   display: block;
   width: 100%;
