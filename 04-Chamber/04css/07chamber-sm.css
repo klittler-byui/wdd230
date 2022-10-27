@@ -297,6 +297,20 @@ header {
   min-height: 200px;
 }
 
+.discoMain {
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .homeBox a {color: #A85751; /* Redwood */}
 
 .homeBox hr {
@@ -462,7 +476,17 @@ main picture.heroPhoto img{width:100%; }
   display: none;
 }
 
+/***************** DISCOVER PAGE *******************/
+.card {
+  width: 320px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
 
+
+}
 
 /**** FOOTER ****/
 

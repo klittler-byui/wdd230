@@ -1,10 +1,9 @@
-// LAZY LOAD
 // get all images with data-src attribute
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
-// optional parameters being set for the IntersectionalObserver
+// optional parameters being set for the Intersectional Observer
 const imgOptions = {
-  threshold: 1.0;
+  threshold: 1,
   rootMargin: "0px 0px 50px 0px"
 };
 
@@ -13,28 +12,23 @@ const loadImages = (image) => {
   image.onload = () => {image.removeAttribute('data-src');};
 };
 
-//first check to see if Intersection Observer is supported
+// First check to see if Interection Observer is supported
 if('IntersectionObserver' in window) {
   const imgObserver = new IntersectionObserver((items, observer) => {
     items.forEach((item) => {
+      if (item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+      }
     });
   }, imgOptions);
 
-  // Loop through each img on check status and load if necessary
   imagesToLoad.forEach((img) => {
     imgObserver.observe(img);
   });
-
-  else { // just load ALL images if not supported
-  }
-
-  article img[data-src] {
-    filter: blur(0.2em);
-  }
-
-  article img{
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
-
-  <img src=
+}
+else {
+  loadImages.forEach((img) => {
+    loadImages(img);
+  });
+}

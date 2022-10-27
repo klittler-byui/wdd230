@@ -77,7 +77,12 @@ main picture.heroPhoto img{max-height: 399px;}
   grid-column: 2;
 }
 
+/************* DISCOVER PAGE ***************/
 
+
+.discoMain {
+  margin-bottom: 20px;
+}
 
 /***** FOOTER ****/
 .footTop {

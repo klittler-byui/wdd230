@@ -1,0 +1,20 @@
+.lazyPics {
+  background-color: aquamarine;
+  display: flexbox;
+  width: 300px;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.lazyPics img[data-src] {
+  filter: blur(0.3em);
+}
+
+.lazyPics img {
+  filter: blur(0em);
+  transition: filter 1s;
+}
