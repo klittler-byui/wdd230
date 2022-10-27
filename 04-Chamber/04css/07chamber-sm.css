@@ -478,11 +478,10 @@ main picture.heroPhoto img{width:100%; }
 
 /***************** DISCOVER PAGE *******************/
 .card {
-  width: 320px;
+  width: 305px;
   box-shadow: 1px 1px 4px 1px #888;
   border-radius: 3px;
   background-color: white;
-  font-family: 'Arial', sans-serif;
   overflow: hidden;
 
 
@@ -603,4 +602,14 @@ table, th, td {
 .fiveary  {
   background-color: #1E2D2F; /* Charleston Green */
   color: white;
+}
+
+/********* LAZY LOAD **********/
+img[data-src] {
+  filter: blur(0.3em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 2s;
 }
