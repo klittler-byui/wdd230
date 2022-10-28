@@ -1,5 +1,5 @@
 /** Media Queries for tablet view **/
-@media (min-width: 37.5em) {
+@media (min-width: 768px) {
 
 
 
@@ -110,4 +110,10 @@ main picture.heroPhoto img{max-height: 399px;}
 .headerBtn {
   display: flex;
   text-align: center;
+}
+
+
+/********************* DISCOVER PAGE ********************************/
+.discoverPics {
+  display:inline-block;
 }

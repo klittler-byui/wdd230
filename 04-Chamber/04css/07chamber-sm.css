@@ -4,6 +4,7 @@ body {
   background-color: white;
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 16px;
+  line-height: 1.6;
   color: #1E2D2F; /* Charleston Green */
   padding: 0;
   margin: 0;
@@ -611,5 +612,5 @@ img[data-src] {
 
 img {
   filter: blur(0em);
-  transition: filter 2s;
+  transition: filter 1s;
 }
