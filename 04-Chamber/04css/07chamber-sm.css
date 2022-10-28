@@ -19,14 +19,14 @@ h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 55px;
   color: #972D07; /* Rufous */
-  padding: .5rem;
+  padding: 0;
 }
 
 h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: 45px;
-  color: #A85751; /* Redwood */
-  padding: .5rem;
+  color: 1E2D2F; /* Charleston Green */
+  padding: 0;
 }
 
 h3 {
@@ -478,15 +478,12 @@ main picture.heroPhoto img{width:100%; }
 }
 
 /***************** DISCOVER PAGE *******************/
-.card {
-  width: 305px;
-  box-shadow: 1px 1px 4px 1px #888;
-  border-radius: 3px;
-  background-color: white;
-  overflow: hidden;
 
-
+.discoverPics {
+  display: flex;
+  flex-direction: column;
 }
+
 
 /**** FOOTER ****/
 
