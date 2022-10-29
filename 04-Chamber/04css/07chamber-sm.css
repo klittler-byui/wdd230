@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
   color: #1E2D2F; /* Charleston Green */
   padding: 0;
-  margin: 0;
+
 }
 
 main {
@@ -25,12 +25,13 @@ h1 {
 h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: 45px;
-  color: 1E2D2F; /* Charleston Green */
+  color: #A85751; /* Redwood */
   padding: 0;
 }
 
 h3 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Jost', sans-serif;
+  font-weight: 250;
   font-size: 35px;
   color: #A85751; /* Redwood */
   padding: 0;
@@ -60,6 +61,9 @@ h6 {
   padding: 0;
 }
 
+p {
+  margin: 3px;
+}
 a {color: #679436; /* Maximum Green */}
 
 
@@ -478,10 +482,19 @@ main picture.heroPhoto img{width:100%; }
 }
 
 /***************** DISCOVER PAGE *******************/
+.card {
+  width: 305px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+}
 
 .discoverPics {
   display: flex;
   flex-direction: column;
+
 }
 
 
