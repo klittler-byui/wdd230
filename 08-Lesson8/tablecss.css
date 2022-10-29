@@ -1,0 +1,66 @@
+body {
+  margin-left: 32px;
+}
+
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 32px;
+  padding: 32px;
+  color:#972D07;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  box-shadow: 1px 1px 4px 1px #888;
+}
+
+tr:nth-child(even) {
+  background-color: #EDDBC0;; /* Desert Sand */
+}
+
+.Theader th {
+  background-color: #972D07; /* Rufous */
+  color: white;
+}
+
+.Tsubhead th {
+  background-color: #A85751; /* Redwood */
+  color: white;
+}
+
+.tableDes {
+  color:#A85751;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 32px;
+  margin-top: 6px;
+}
+footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1E2D2F; /* Charleston Green */
+  text-align: left;
+  color: white;
+  padding: 20px 10px 60px 0;
+
+}
+
+footer p {
+  margin-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* #972D07; /* Rufous */
+/* #A85751; /* Redwood */
+/* #EABDA8; /* Desert Sand */
