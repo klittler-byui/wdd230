@@ -1,17 +1,16 @@
-const visitsDisplay = document.querySelector(".visits");
-const lastVisitDisplay = document.querySelector(".lastVisit");
 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
+/****** Days Between Visits Script *********/
+const visit = document.querySelector(".lastVisit");
+const today = new Date();
 
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
+const lastVisit = Number(window.localStorage.getItem("last-visit"));
 
+if (lastVisit !== 0) {
+	const time = Date.now();
+	let difference = ((time - lastVisit) / (1000 * 3600 * 24)).toFixed(0);
+	localStorage.setItem("last-visit", time);
+	visit.textContent = difference;
 } else {
-	visitsDisplay.textContent = `This is your first visit!`;
+	visits.textContent = `Today is your first day here`;
+	localStorage.setItem("last-visit", Date.now());
 }
-
-numVisits++;
-localStorage.setItem("visits-ls", numVisits);
-todayDate.textContent = Date.now();
-
-let lastVisit = Number(window.localStorage.getItem("lastVisit"));

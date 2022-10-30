@@ -497,6 +497,10 @@ main picture.heroPhoto img{width:100%; }
 
 }
 
+.image__title {
+  color: white;
+}
+
 
 /**** FOOTER ****/
 
