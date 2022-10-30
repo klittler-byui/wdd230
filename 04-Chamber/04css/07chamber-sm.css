@@ -501,6 +501,11 @@ main picture.heroPhoto img{width:100%; }
   color: white;
 }
 
+.lowKey {
+  color: lightgray;
+  text-align: right;
+}
+
 
 /**** FOOTER ****/
 
