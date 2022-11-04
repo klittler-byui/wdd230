@@ -214,7 +214,7 @@ display: none;
   margin-right: 10px;
 }
 .memForm {
-  grid-row: 2;
+  grid-row: 2/4;
   grid-column: 1;
   margin-left:10px;
 }
@@ -225,7 +225,13 @@ display: none;
   margin-left: 40px;
 }
 
-.memHr hr{
+.memBusPics {
+  grid-row: 3;
+  grid-column: 2;
+  margin-left: 40px;
+}
+
+hr.memHr{
   display: none;
 }
 

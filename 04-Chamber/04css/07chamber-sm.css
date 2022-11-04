@@ -712,7 +712,6 @@ background-color: #F5F4E8;
 input[type="text"]::placeholder {
  text-align: left;
 padding-top: 10px;
-justify-content: top;
 color: #B7B6B4;
 
 }

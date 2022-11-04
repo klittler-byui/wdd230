@@ -1,14 +1,36 @@
+/************* LAST MODIFIED ***************/
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
+
+/**** NUMERIC DATE xx/xx/xxxx ********/
 const date1 = document.querySelector("#date1");
 
 try {
 	const options = {
 		day: "numeric",
 		month: "numeric",
-		year: "numeric"
+		year: "numeric",
 	};
 	date1.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
 } catch (e) {}
 
+
+/**** NUMERIC DATE AND TIMExx/xx/xxxx 00:00 ********/
+const dateTime = document.querySelector("#dateTime");
+
+try {
+	const options = {
+		day: "numeric",
+		month: "numeric",
+		year: "numeric",
+		hour: "numeric",
+		minutes: "numeric",
+	};
+	dateTime.innerHTML = `${new Date().toLocaleDateString("en-US", options)}</span>`;
+} catch (e) {}
+
+/**** ALPHA-NUMERIC DATE Month Day, Year ********/
 const date2 = document.querySelector("#date2");
 
 try {
