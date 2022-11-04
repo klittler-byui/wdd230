@@ -633,3 +633,192 @@ img {
   filter: blur(0em);
   transition: filter 1s;
 }
+
+
+/************* FORM ***************/
+form fieldset {
+  margin: 5px 0 15px 0;
+  border: 2px solid #F5F4E8;
+  border-radius: 10px;
+  padding: 1rem 1rem 2rem 1rem ;
+  background-color: #F5F4E8;
+}
+
+form fieldset h4 {
+  padding-top: 0;
+  margin-top:0;
+}
+
+form legend {
+  color: #972D07;
+  margin: 0;
+  padding: 0;
+font-size: 1.25rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #A85751;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 2px #999;
+  border-top-style: none;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #F5F4E8;
+}
+
+form label.para, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #A85751;
+  font-size: .8rem;
+
+}
+form label.
+form label.para input, form label.para select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 2px #999;
+  border-top-style: none;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-radius: 6px;
+  padding: .75rem;
+padding: top; 10px;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  height: 100px;
+
+background-color: #F5F4E8;
+
+}
+
+input[type="text"]::placeholder {
+ text-align: left;
+padding-top: 10px;
+justify-content: top;
+color: #B7B6B4;
+
+}
+
+form label.radio {
+  display: block;
+  padding: .75rem;
+  color: #555;
+
+}
+
+
+
+form input.submitBtn {
+  border: none;
+  background-color: #679436;
+  color: white;
+  border-radius: 6px;
+  padding: .75rem 1.5rem;
+  margin: 20px 0;
+  width: 55%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  //border-left: red solid 6px;
+background-color: #EDDBC0;
+}
+
+form label.top input:required:valid {
+  border-left: #679436 solid 6px;
+}
+
+
+
+/**************** Table ******************/
+.memTabTitle {
+  margin-bottom: 0;
+}
+
+hr {
+  border: .5px solid #EDDBC0;
+  margin: 30px 0;
+}
+
+table, th, td {
+  border: 1px solid #A85751;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-bottom: 60px;
+
+}
+
+tr:hover {background-color:#EDDBC0;; /* Desert Sand */}
+
+tr:nth-child(even) {
+  /* background-color: #EDDBC0;; /* Desert Sand */
+}
+
+table {
+  box-shadow: 1px 1px 4px 1px #888;
+  margin-top: 5px;
+}
+
+.memTabHead th {
+  background-color: #A85751; /* Redwood */
+  color: white;
+  vertical-align: center;
+}
+
+.memTabSubHead th {
+  background-color: white;
+  color: #A85751; /* Redwood */
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+
+
+
+
+.memTabSpecial th {
+  font-size: 24px;
+  font-weight: 400;
+  color:#972D07;
+  background-color: white;
+}
+.tilt{
+  text-align: center;
+  font-size: 14px;
+  min-width: 50px;
+  max-width: 51px;
+}
+
+
+.tilt2 {
+  text-align: center;
+}
+
+.memTabCkBox {
+  text-align: center;
+}
+
+
+/*  background_color #F5F4E8;
+    green  #679436
+    lighter melon #A85751
+    dark red #972D07; */

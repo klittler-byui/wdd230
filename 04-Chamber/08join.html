@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="description" content="My Page Description">
+  <link rel="stylesheet" href="04css/07chamber-sm.css">
+  <link rel="stylesheet" href="04css/07chamber-med.css">
+  <link rel="stylesheet" href="04css/07chamber-lg.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative&family=Jost:wght@100;200;300;400;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <title>HOME | Littlerville Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+      <div class="logo-box">
+
+        <a class="logo" href="l3index.html"><img src="04chamberimages/LOGO-2-littlervilleCC.webp" alt="Chamber of Commerce logo" width="200"></a>
+
+        <button id="headerBtn" onclick="document.location='join.html'">Join the Chamber</button>
+
+
+        <p class="headerDate"><span id="date2"></span></p>
+
+
+
+
+      </div>
+
+
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+        <li><a href="07cindex.html">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="07discover.html">Discover</a></li>
+        <li><a href="08join.html">Join</a></li>
+      </ul>
+      <div class="navSocial">
+        <a class="facebook" href="https://www.facebook.com/" target="_blank" ><img src="04chamberimages/grey-facebook.png" alt="Facebook logo" width=30></a>
+        <a class="twitter" href="https://twitter.com/?lang=en" target="_blank" ><img src="04chamberimages/grey-instagram.png" alt="Twitter logo" width=30></a>
+
+      </div>
+    </nav>
+
+
+    </header>
+    <div class="bannerContainer">
+      <div><img class="banner-pic-home" src="04chamberimages/NEWrsz_1920-banner(1).webp" alt="View of Littlerville"></div>
+      <h1 class="welcomeBanner">Become a member of the Chamber</h1>
+    </div>
+
+    <main class="memTableGrid">
+
+
+      <div class="memInfo">
+      <h2>Member Information</h2>
+      <p>Becoming a member of the Littlerville Chamber of Commerce is easy. Simply pick your membership level and complete the membership application. Within moments you will have your membership package and be on your way to enjoying all the benefits Chamber membership has to offer. And your membership fees are 99% tax-deductible (consult with your tax accountant).</p>
+      <hr class="memTab">
+    </div>
+
+
+      <div class="memForm">
+      <h3>Membership Application</h3>
+      <form method="get" action="memberThanks.html">
+        <fieldset>
+          <h4><strong>Member Information</strong> </h4>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Job Title (minimum of 7 characters)<input type="text" name="jobTitle" pattern="[A-Za-z0-9 ]{7,}"></label>
+          <label class="top">Mobile<input type="tel" name="mobile" placeholder="6025551234"></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="yourname@email.com" required></label>
+       </fieldset>
+
+       <fieldset>
+          <h4><strong>Business Information</strong> </h4>
+          <label class="top">Business Name*<input type="text" name="business" required></label>
+          <label class="top">Business Phone<input type="tel" name="phone" placeholder="6025551234"></label>
+          <label class="top">Business Website<input type="url" name="url" placeholder="http://"></label>
+
+          <div>Business Type</div>
+          <label class="radio"><input type="radio" name="busType" value="NPbusiness">Non-Profit</label>
+          <label class="radio"><input type="radio" name="busType" value="SoleProprietorship">Sole Proprietorship</label>
+          <label class="radio"><input type="radio" name="busType" value="Partnership">Partnership</label>
+          <label class="radio"><input type="radio" name="busType" value="Corporation">Corporation</label>
+        </fieldset>
+
+       <fieldset>
+          <h4><strong>Membership Plans</strong> </h4>
+
+          <div>Select your annual membership level</div>
+          <label class="radio"><input type="radio" name="memLevel" value="NProfit">Non-Profit - $300 annually</label>
+          <label class="radio"><input type="radio" name="memLevel" value="bronze">Bronze - $775 annually</label>
+          <label class="radio"><input type="radio" name="memLevel" value="silver">Silver - $2,500 annually</label>
+          <label class="radio"><input type="radio" name="memLevel" value="gold">Gold - $5,000 annually</label>
+        </fieldset>
+        <input type="hidden" id="date1" name="memFormDate" value="" >
+        <input type="submit" value="Become a Member" class="submitBtn">
+      </form>
+
+
+    </div>
+
+      <hr id="memHr">
+
+
+    <div class="memTable">
+      <h3 class="memTabTitle">Membership Benefits</h3>
+      <div class="memlevels" id="nonP">
+      <div class="memberTable">
+        <table class="memTab">
+          <tr class="memTabHead">
+            <th class="memTabSepcial">Description of Member Benefits</th>
+            <th class="tilt">501(c)</th>
+            <th class="tilt">Bronze</th>
+            <th class="tilt">Silver</th>
+            <th class="tilt">Gold</th>
+          </tr>
+          <tr class="memTabSubHead">
+            <th>Annual Dues</th>
+            <th class="tilt2">$300</th>
+            <th class="tilt2">$775</th>
+            <th class="tilt2">$2,500</th>
+            <th class="tilt2">$5,000</th>
+          </tr>
+          <tr class="memTabRow">
+            <td>Directory listing and a marketing landing page on Chamber website</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Promote your events, deals, and news releases on Chamber website</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Opportunities to serve on Chamber committees</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Member-only pricing at Chamber events</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Opportunities to promote your business at Chamber events</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Recognition in the community as a member of the Chamber</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Member of Chamber plaque</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>Ribbon cuttings for gran openings or expansions</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+
+          <tr class="memTabRow">
+            <td>U.S. Chamber of Commerce discounts from FedEx</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Opportunity for premium placement in <em>Living in Littlerville </em> digital magazine</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Opportunity to advertise in <em>Living in Littlerville</em> mobile app</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Small group logo displayed on monthly newsletter</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Logo displayed on visitor center lobby television</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Reserved seating and recognition at the annual Chamber Awards Dinner</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Spotlight feature on Chamber website home page</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Logo included in welcome video at monthly networking luncheon</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Opportunity to have 30 second commercial on Visitor Center lobby television</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Recognition in social media campaigns</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+          <tr class="memTabRow">
+            <td>Free 1/4 page ad in <em>Living in Littlerville</em> digital magazine</td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox"></td>
+            <td class="memTabCkBox">X</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+      </div>
+    </main>
+
+
+
+
+
+  <footer>
+    <a class="footLogo" href="l3index.html">
+      <img src="04chamberimages/CClogo-WHITE.png" alt="Chamber of Commerce logo" style="width:175px"></a>
+
+    <div class="footTop">
+      <div class="address">
+       <p class="addLine1">1313 Disneyland Drive</p>
+       <p class="addLine2">Littlerville, Arizona</p>
+      </div>
+      <div class="emailPhone">
+       <p class="phone">Tel:  480.123.4567</p>
+        <a class="email" href="mailto:info@littlerville.org" target="_blank">info@littlerville.org</a>
+      </div>
+      <div class="map">
+      <a class="locMap" href="https://goo.gl/maps/cY5Z1T9skwNxipWbA" target="_blank">Location Map</a>
+    </div>
+      </div>
+
+    <hr>
+    <div class="footBot">
+       <p>&copy; <span id="copyYr"></span> Littlerville Chamber of Commerce   |  Kori Littler  |  WDD 230 Project  |  Last Updated: <span id="date1"></span></p>
+     </div>
+      </footer>
+
+  <script src="04js/localStorage.js"></script>
+  <script src="04js/07chamber.js" ></script>
+  <script src="04js/lazyloadChamber.js" defer></script>
+
+
+
+</body>
+</html>
