@@ -1,26 +1,24 @@
 {
-  "members": [
+  "prophets": [
     {
       "logoImg": "04-Chamber/04chamberimages/directory-oldEllsworth.webp",
-      "bname": "Old Ellsworth Brewing Company",
+      "name": "Old Ellsworth Brewing Company",
       "address": "22005 S Ellsworth Rd",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
-
       "phone": "(480) 935-2796",
-      "web": "https://www.oldellsworthbrewing.com/",
+      "web": "oldellsworthbrewing.com",
       "memLevel": "gold"
     },
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-fatcats.webp",
-      "bname": "FatCats",
+      "name": "FatCats",
       "address": "20660 E Riggs Rd",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
-
       "phone": "(480) 841-6044",
       "web": "fatcatsfun.com",
       "memLevel": "silver"
@@ -28,12 +26,11 @@
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-aldi.webp",
-      "bname": "ALDI",
+      "name": "ALDI",
       "address": "20229 S Ellsworth Rd",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
-
       "phone": "(855) 955-2534",
       "web": "aldi.us",
       "memLevel": "bronze"
@@ -41,12 +38,11 @@
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-Dickey's_Barbecue_Pit_Logo.svg.webp",
-      "bname": "Dickey's Barbecue Pit",
+      "name": "Dickey's Barbecue Pit",
       "address": "21051 S Ellsworth Lp Rd Ste 104",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
-
       "phone": "(480) 999-0194",
       "web": "dickeys.com",
       "memLevel": "gold"
@@ -54,19 +50,19 @@
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-blackRock.webp",
-      "bname": "Black Rock Coffee",
+      "name": "Black Rock Coffee",
       "address": "20774 E. Walnut Road",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
       "phone": "(480) 418-4346",
-      "web": "https://br.coffee/",
+      "web": "br.coffee/",
       "memLevel": "silver"
     },
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-jeremiahs.webp",
-      "bname": "Jeremiah's Italian Ice",
+      "name": "Jeremiah's Italian Ice",
       "address": "20784 E Victoria Ln #107",
       "city": "Littlerville",
       "state": "AZ",
@@ -78,19 +74,19 @@
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-Harbor-Freight-Tools-logo_new-860x484.webp",
-      "bname": "Harbor Freight",
+      "name": "Harbor Freight",
       "address": "21244 E. Ocotillo Road",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
       "phone": "(480)506-0888",
       "web": "harborfreight.com",
-      "memLevel": "#"
+      "memLevel": "silver"
     },
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-cottageFlowers.webp",
-      "bname": "The Cottage Flowers & Gifts",
+      "name": "The Cottage Flowers & Gifts",
       "address": "21168 East Ocotillo Road, Ste. 2377 ",
       "city": "Littlerville",
       "state": "AZ",
@@ -102,14 +98,13 @@
 
     {
       "logoImg": "04-Chamber/04chamberimages/directory-clearent.webp",
-      "bname": "Clearent Intelligent Processing",
+      "name": "Clearent Intelligent Processing",
       "address": "1234 E. Main Street",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
-
       "phone": "(480) 213-9968",
-      "web": "https://clearent.com/",
+      "web": "clearent.com",
       "memLevel": "bronze"
     }
   ]
