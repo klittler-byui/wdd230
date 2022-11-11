@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-oldEllsworth.webp",
+      "logoImg": "04chamberimages/directory-oldEllsworth.webp",
       "name": "Old Ellsworth Brewing Company",
       "address": "22005 S Ellsworth Rd",
       "city": "Littlerville",
@@ -13,7 +13,7 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-fatcats.webp",
+      "logoImg": "04chamberimages/directory-fatcats.webp",
       "name": "FatCats",
       "address": "20660 E Riggs Rd",
       "city": "Littlerville",
@@ -25,7 +25,7 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-aldi.webp",
+      "logoImg": "04chamberimages/directory-aldi.webp",
       "name": "ALDI",
       "address": "20229 S Ellsworth Rd",
       "city": "Littlerville",
@@ -37,7 +37,7 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-Dickey's_Barbecue_Pit_Logo.svg.webp",
+      "logoImg": "04chamberimages/directory-Dickey's_Barbecue_Pit_Logo.svg.webp",
       "name": "Dickey's Barbecue Pit",
       "address": "21051 S Ellsworth Lp Rd Ste 104",
       "city": "Littlerville",
@@ -49,7 +49,7 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-blackRock.webp",
+      "logoImg": "04chamberimages/directory-blackRock.webp",
       "name": "Black Rock Coffee",
       "address": "20774 E. Walnut Road",
       "city": "Littlerville",
@@ -61,7 +61,7 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-jeremiahs.webp",
+      "logoImg": "04chamberimages/directory-jeremiahs.webp",
       "name": "Jeremiah's Italian Ice",
       "address": "20784 E Victoria Ln #107",
       "city": "Littlerville",
@@ -73,7 +73,7 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-Harbor-Freight-Tools-logo_new-860x484.webp",
+      "logoImg": "04chamberimages/directory-Harbor-Freight-Tools-logo_new-860x484.webp",
       "name": "Harbor Freight",
       "address": "21244 E. Ocotillo Road",
       "city": "Littlerville",
@@ -85,19 +85,19 @@
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-cottageFlowers.webp",
+      "logoImg": "04chamberimages/directory-cottageFlowers.webp",
       "name": "The Cottage Flowers & Gifts",
       "address": "21168 East Ocotillo Road, Ste. 2377 ",
       "city": "Littlerville",
       "state": "AZ",
       "zip": "85142",
       "phone": "(480) 770-4610",
-      "web": "https://thecottageflowersandgifts.com/",
+      "web": "thecottageflowersandgifts.com/",
       "memLevel": "bronze"
     },
 
     {
-      "logoImg": "04-Chamber/04chamberimages/directory-clearent.webp",
+      "logoImg": "04chamberimages/directory-clearent.webp",
       "name": "Clearent Intelligent Processing",
       "address": "1234 E. Main Street",
       "city": "Littlerville",
