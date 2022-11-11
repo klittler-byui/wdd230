@@ -1,42 +1,38 @@
-const requestMEM = '04-Chamber/04js/directorylist.json';
+const requestURL = 'https://raw.githubusercontent.com/klittler-byui/wdd230/main/04-Chamber/04js/directorylist.json';
+
 const cards = document.querySelector('.cards');
 
-fetch(requestMEM)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+fetch(requestURL)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  console.table(jsonObject);
+  const members = jsonObject['members'];
+  members.forEach(displayMembers);
 });
 
-function displayProphets (prophet){
-    // Create elements to add to the document
-    let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let portrait = document.createElement('img');
-    let birthdate = document.createElement('span');
-    let birthplace = document.createElement('span');
+function displayMembers (member) {
+  let DIRcard = document.createElement('section');
+  let h2 = document.createElement('h2');
+  let logo = document.createElement('img');
+  let address = document.createElement('span');
+  let phone = document.createElement('span');
+  let web - document.createElement('span');
 
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-    birthplace.textContent= `Place of Birth: ${prophet.birthplace}`;
+  h2.textContent = `${member.bname}`;
+  address.textContent = `${member.address} ${member.city}, ${member.state} ${member.zip}`;
+  phone.textContent = `${member.phone}`;
+  web.textContent = `${member.web}`;
 
+  logo.setAttribute('src', member.logoImg);
+  logo.setAttribute('alt', `${member.bname} logo`);
+  logo.setAttribute('loading', 'lazy');
 
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}° Latter-day President`);//'Portait of ' + prophet.name + ' ' + prophet.lastname);
-    portrait.setAttribute('loading', 'lazy');
+  DIRcard.appendChild(logo);
+  DIRcard.appendChild(address);
+  DIRcard.appendChild(phone);
+  DIRcard.appendChild(web);
 
-    // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    card.appendChild(portrait);
-    card.appendChild(birthdate);
-    card.appendChild(birthplace);
-
-
-    // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+  document.querySelector('div.cards').appendChild(card);
 }
