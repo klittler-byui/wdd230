@@ -1,7 +1,7 @@
 {
-  "directory": [
+  "": [
     {
-      "logoImg": "https://static.wixstatic.com/media/956539_dda0da4590294505b3577a28add6cf56~mv2_d_7549_5295_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/956539_dda0da4590294505b3577a28add6cf56~mv2_d_7549_5295_s_4_2.jpg",
+      "logoImg": "04-Chamber/04chamberimages/directory-oldEllsworth.webp",
       "bname": "Old Ellsworth Brewing Company",
       "address": "22005 S Ellsworth Rd",
       "city": "Littlerville",
@@ -14,7 +14,7 @@
     },
 
     {
-      "logoImg": "http://a.mktgcdn.com/p/5AsQ2EukTQpdO9vxDgt7q-OOVb-Q4-WN7D9DkstIUJ4/708x708.png",
+      "logoImg": "04-Chamber/04chamberimages/directory-fatcats.webp",
       "bname": "FatCats",
       "address": "20660 E Riggs Rd",
       "city": "Littlerville",
@@ -27,7 +27,7 @@
     },
 
     {
-      "logoImg": "https://cdn.lovesavingsgroup.com/logos/aldi.png",
+      "logoImg": "04-Chamber/04chamberimages/directory-aldi.webp",
       "bname": "ALDI",
       "address": "20229 S Ellsworth Rd",
       "city": "Littlerville",
@@ -40,7 +40,7 @@
     },
 
     {
-      "logoImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dickey%27s_Barbecue_Pit_Logo.svg/1200px-Dickey%27s_Barbecue_Pit_Logo.svg.png",
+      "logoImg": "04-Chamber/04chamberimages/directory-Dickey's_Barbecue_Pit_Logo.svg.webp",
       "bname": "Dickey's Barbecue Pit",
       "address": "21051 S Ellsworth Lp Rd Ste 104",
       "city": "Littlerville",
@@ -53,7 +53,7 @@
     },
 
     {
-      "logoImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPg9QxiwaQZA8DXi22dnjyVTp4__LLd6DudyV73KDRRcEpK8u8ZqPUO-VwHj-o2yrJKlk&usqp=CAU",
+      "logoImg": "04-Chamber/04chamberimages/directory-blackRock.webp",
       "bname": "Black Rock Coffee",
       "address": "20774 E. Walnut Road",
       "city": "Littlerville",
@@ -65,7 +65,7 @@
     },
 
     {
-      "logoImg": "https://jeremiahsice.com/assets/img/full-logo.png",
+      "logoImg": "04-Chamber/04chamberimages/directory-jeremiahs.webp",
       "bname": "Jeremiah's Italian Ice",
       "address": "20784 E Victoria Ln #107",
       "city": "Littlerville",
@@ -77,7 +77,7 @@
     },
 
     {
-      "logoImg": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Harbor_Freight_Tools_logo.png",
+      "logoImg": "04-Chamber/04chamberimages/directory-Harbor-Freight-Tools-logo_new-860x484.webp",
       "bname": "Harbor Freight",
       "address": "21244 E. Ocotillo Road",
       "city": "Littlerville",
@@ -89,7 +89,7 @@
     },
 
     {
-      "logoImg": "https://image.floranext.com/instances/cottageatqueencreek_com/logos/x800_1614546337_0.89675600_1614546335.png?gen=1",
+      "logoImg": "04-Chamber/04chamberimages/directory-cottageFlowers.webp",
       "bname": "The Cottage Flowers & Gifts",
       "address": "21168 East Ocotillo Road, Ste. 2377 ",
       "city": "Littlerville",
@@ -101,7 +101,7 @@
     },
 
     {
-      "logoImg": "https://developer.clearent.com/wp-content/uploads/2019/07/Clearent-Logo.png",
+      "logoImg": "04-Chamber/04chamberimages/directory-clearent.webp",
       "bname": "Clearent Intelligent Processing",
       "address": "1234 E. Main Street",
       "city": "Littlerville",
