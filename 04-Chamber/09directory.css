@@ -1,0 +1,124 @@
+/**********************************************/
+/************* DIRECTORY PAGE *****************/
+
+
+
+
+
+
+
+
+.directoryPage {
+  text-align: center;
+}
+.menu {
+  padding: 0 20px;
+  text-align: right;
+}
+
+.directoryOptons {
+  /* background-color: #F5F4E8; */
+  margin-bottom: 10px;
+}
+.material-symbols-outlined {
+  padding: 10px 0;
+}
+
+.menu button {
+  background: none;
+  color: #1E2D2F;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 30px;
+}
+
+.menu button:hover {
+  background: none;
+  color: #972D07;
+}
+
+/************** DIRECTORY CARDS ****************/
+
+.grid {
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  min-width: 275px;
+}
+
+.grid section {
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.grid section name {
+  display: none;
+
+}
+
+.grid section img {
+  height: 100px;
+  margin: 10px 0;
+  max-width: 280px;
+  border-radius: 5px;
+  padding: 10px 15px 20px 15px;
+}
+
+
+
+.list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.list section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+
+
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section name {
+  text-align: left;
+  font-weight: 800;
+
+}
+
+.list section img {
+	display: none;
+}
+
+
+@media (min-width: 800px) {
+  .list section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/**************** DIRECTORY Table ******************/
