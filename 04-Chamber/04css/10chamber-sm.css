@@ -1,0 +1,858 @@
+/**** FONTS ******/
+body {
+  height: 100vh;
+  background-color: white;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1E2D2F; /* Charleston Green */
+  padding: 0;
+
+}
+
+main {
+  margin: 20px 15px 20px 15px;
+  padding: 0 1rem 0 1rem;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 55px;
+  color: #972D07; /* Rufous */
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+  color: #A85751; /* Redwood */
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 250;
+  font-size: 35px;
+  color: #A85751; /* Redwood */
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #A85751; /* Redwood */
+  padding: 0;
+}
+
+h5 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #679436; /* Maximum Green */
+  padding: 0;
+}
+
+h6 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  color: #1E2D2F; /* Charleston Green */
+  padding: 0;
+}
+
+p {
+  margin: 3px;
+}
+a {color: #679436; /* Maximum Green */}
+
+
+
+/*  NAV  */
+
+nav {
+	/* background-color: #EABDA8; Desert Sand */
+  background-color: #1E2D2F; /* Charleston Green */
+ /* background-color: #A85751; /* Redwood */
+	text-align: left;
+  color: white;
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-family: 'Jost', sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.hamburgerBtn{
+  grid-row: 1;
+  grid-column: 1
+}
+
+.primaryNav {
+  grid-row: 2;
+  grid-column: 1/3;
+}
+
+.navSocial {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  margin: 0;
+}
+
+.facebook, .twitter {
+  height: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+nav ul.open{display: block;}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+
+nav li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+}
+
+
+nav a:hover {
+  background-color: #EDDBC0; /* Desert Sand */
+  color: #972D07; /* Rufous */
+}
+
+nav a:active {
+  background-color: #972D07; /* Rufous */
+}
+
+
+/************ BUTTONS ************/
+
+/** Hamburger Button Toggle with NO 'X' **/
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+/** Hamburger Button Toggle with 'X' **/
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav button {
+  background: #1E2D2F;
+  color: #EDDBC0;
+  border: none;
+  margin: 0;
+  font-size: 2rem;
+  list-style-type: none;
+  border-radius: 0;
+  align-content: center;
+  text-align: left;
+}
+
+nav button:hover {
+  background: #EDDBC0;
+  color: #1E2D2F;
+  border: none;
+  margin: 0;
+}
+
+
+button {
+  background-color: #679436; /* Maximum Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 225px;
+}
+
+button:hover {
+  background: #A85751;
+  color: #1E2D2F;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-box button {  /* Logo Header */
+  display: none;
+}
+
+.headBtnHide {   /* Logo Header */
+  display: none;
+}
+
+
+
+/**** Logo Header box ****/
+
+.logo-box {
+  display: block;
+  padding:  15px 15px 10px 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+/** .logo-box {
+  display: grid;
+  padding:  15px 15px 10px 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+} **/
+
+
+.headerDate {  /* Logo Header */
+  display: block;
+  color: grey;
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+
+}
+
+
+
+
+/**  Header/Banner **/
+header {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.banner-pic-home {  /* Header */
+  display: none;
+}
+
+
+.welcomeBanner { /* Header */
+  display: none;
+}
+
+
+
+
+
+
+/** HOME PAGE **/
+
+.homePage {
+  display: block;
+
+}
+
+.announceBanner { /* above  */
+  display: flex;
+  background-color: #972D07;
+  color: white;
+  font-size: 22px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 30px 20px 30px 10px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+}
+
+/*******  GRID BOXES *******/
+.homeBox {
+  background-color: #EDDBC0;
+  border: 1px solid #EDDBC0;
+  padding: 2vw;
+  margin: 1rem 0;
+  min-height: 200px;
+}
+
+.discoMain {
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.homeBox a {color: #A85751; /* Redwood */}
+
+.homeBox hr {
+  border:none;
+  height: 20px;
+ 	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #A85751
+}
+
+/*****GRID BOX - HERO ******/
+.heroBox {
+  display: block;
+  width:100%;
+  height: 100%;
+  background-color:#972D07;
+  border: 1px solid transparent;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+main picture.heroPhoto img{width:100%; }
+/*** .heroImg {
+  display: block;
+  width:100%;
+} **/
+
+.heroBtn {
+  font-size: 12px;
+  width: 10rem;
+  padding: 10px 5px;
+  display: block;
+  position: absolute;
+  top: 65%;
+  right: 10%;
+}
+/* .heroBtn {
+  width: 125px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  color: white;
+  background-color: #A85751;
+} */
+
+
+/*****GRID BOX - EVENT ******/
+.eventBox {
+  text-align: center;
+}
+
+/*****GRID BOX - WEATHER ******/
+
+.weatherMain {
+  align-items: center;
+  text-align: center;
+  font-size: 55px;
+}
+
+.weatherMinor {
+  text-align: center;
+}
+
+.weatherH3 {
+  text-align: center;
+
+}
+
+
+.temp {
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+.weatherImg {
+  height: 70px;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+figure img {
+
+}
+
+.input1 {
+  font-size: 65px; ;
+}
+
+.wStatus {
+  padding: 0 1rem 0 0;
+  margin: 0;
+  font-size: 1.5rem;
+
+}
+
+figure {
+  margin: 0;
+}
+
+
+.weatherCap {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 2px;
+  color:#A85751;
+}
+
+.weatherCap {
+  font-size: 19px;
+  text-transform: capitalize;
+  padding: 0;
+  margin-top: 0;
+}
+
+.speed {
+  font-size: 14px;
+}
+
+
+/*****GRID BOX - NEWS ******/
+.newsBox {
+  text-align: center;
+}
+
+
+/*****GRID BOX - SPOTLIGHTS ******/
+.spotBox {
+  height: auto;
+}
+.spotlight {
+  border: 1px solid white;
+  padding: 2vw;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin: 0;
+
+}
+
+.joinBox {
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin: 0;
+}
+
+/* .newViewLogo {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: white solid;
+} */
+
+.smallP {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.persona1 {
+  padding: 0;
+  margin: 0 0 0 5px;
+}
+
+/***** ID IDs ******/
+
+  /** HERO - shows on mobile**/
+
+  /** EVENT - shows on mobile**/
+
+  /** WEATHER - shows on mobile**/
+
+  /** NEWS RELEASE - shows on mobile**/
+
+  /** SPOTLIGHT 1 - shows on mobile**/
+
+  /** SPOTLIGHT 2 - shows on mobile**/
+
+  /** SPOTLIGHT 3 & JOIN - does NOT show on mobile.  **/
+  /** hidden using class .hidden-sm **/
+
+.hidden-sm{
+  display: none;
+}
+
+
+.hiFhide {
+  display: none;
+}
+
+/***************** DISCOVER PAGE *******************/
+.card {
+  width: 305px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.discoverPics {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.image__title {
+  color: white;
+}
+
+.lowKey {
+  color: lightgray;
+  text-align: right;
+}
+
+
+/**** FOOTER ****/
+
+footer {
+  display: block;
+  background-color: #1E2D2F; /* Charleston Green */
+  text-align: left;
+  color: white;
+  padding: 20px 10px 60px 0;
+}
+
+footer a {
+  color: #EDDBC0; /* rgb(237, 219, 192) */
+  font-size: 12px;
+  padding: 20px 10px 60px 0;
+  margin: 0 0 5px 45px;
+}
+
+footer p {
+  margin: 0 0 5px 45px;
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
+}
+footer h6 {
+  margin: 45px;
+  color: black;
+}
+
+footer hr{
+  margin: 20px 45px;
+  border-color: grey;
+}
+
+footer img {
+  margin: 0 0 5px 0;
+}
+
+
+
+
+
+/* table properties */
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding-left: 15px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.persona-table table, th, td {
+  border: 1px solid grey;
+  padding: 20px 5px 15px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+.colors td {
+  height: 60px;
+  vertical-align: middle;
+}
+
+.persona-table td {
+  vertical-align: top;
+
+}
+
+.color-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.ct-title {
+  grid-row: 1;
+  grid-column: 1/3;
+}
+.colors {
+  grid-row: 2;
+  grid-column:1/3;
+}
+
+.table-header {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.firstary {
+  background-color: #972D07; /* Rufous */;
+  color: white;
+}
+
+.secondary {
+    background-color: #A85751; /* Redwood */
+    color: white;
+  }
+
+.thirdary  {
+  background-color: #EABDA8; /* Desert Sand */
+  color: white;
+}
+
+.fourary  {
+  background-color: #679436; /* Maximum Green */
+  color: white;
+}
+
+.fiveary  {
+  background-color: #1E2D2F; /* Charleston Green */
+  color: white;
+}
+
+/********* LAZY LOAD **********/
+img[data-src] {
+  filter: blur(0.3em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+
+/************* FORM ***************/
+form fieldset {
+  margin: 5px 0 15px 0;
+  border: 2px solid #F5F4E8;
+  border-radius: 10px;
+  padding: 1rem 1rem 2rem 1rem ;
+  background-color: #F5F4E8;
+}
+
+form fieldset h4 {
+  padding-top: 0;
+  margin-top:0;
+}
+
+form legend {
+  color: #972D07;
+  margin: 0;
+  padding: 0;
+font-size: 1.25rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #A85751;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 2px #999;
+  border-top-style: none;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #F5F4E8;
+}
+
+form label.para, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #A85751;
+  font-size: .8rem;
+
+}
+form label.
+form label.para input, form label.para select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 2px #999;
+  border-top-style: none;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-radius: 6px;
+  padding: .75rem;
+padding: top; 10px;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  height: 100px;
+
+background-color: #F5F4E8;
+
+}
+
+input[type="text"]::placeholder {
+ text-align: left;
+padding-top: 10px;
+color: #B7B6B4;
+
+}
+
+form label.radio {
+  display: block;
+  padding: .75rem;
+  color: #555;
+
+}
+
+
+
+form input.submitBtn {
+  border: none;
+  background-color: #679436;
+  color: white;
+  border-radius: 6px;
+  padding: .75rem 1.5rem;
+  margin: 20px 0;
+  width: 55%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  //border-left: red solid 6px;
+background-color: #EDDBC0;
+}
+
+form label.top input:required:valid {
+  border-left: #679436 solid 6px;
+}
+
+
+
+/**************** Table ******************/
+.memTabTitle {
+  margin-bottom: 0;
+}
+
+hr {
+  border: .5px solid #EDDBC0;
+  margin: 30px 0;
+}
+
+table, th, td {
+  border: 1px solid #A85751;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-bottom: 60px;
+
+}
+
+tr:hover {background-color:#EDDBC0;; /* Desert Sand */}
+
+tr:nth-child(even) {
+  /* background-color: #EDDBC0;; /* Desert Sand */
+}
+
+table {
+  box-shadow: 1px 1px 4px 1px #888;
+  margin-top: 5px;
+}
+
+.memTabHead th {
+  background-color: #A85751; /* Redwood */
+  color: white;
+  vertical-align: center;
+}
+
+.memTabSubHead th {
+  background-color: white;
+  color: #A85751; /* Redwood */
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+
+
+
+
+.memTabSpecial th {
+  font-size: 24px;
+  font-weight: 400;
+  color:#972D07;
+  background-color: white;
+}
+.tilt{
+  text-align: center;
+  font-size: 14px;
+  min-width: 50px;
+  max-width: 51px;
+}
+
+
+.tilt2 {
+  text-align: center;
+}
+
+.memTabCkBox {
+  text-align: center;
+}
+
+
+.attributes {
+  margin: 0 20px;
+}
+
+/*  background_color #F5F4E8;
+    green  #679436
+    lighter melon #A85751
+    dark red #972D07; */
