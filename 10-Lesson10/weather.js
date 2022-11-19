@@ -15,10 +15,12 @@ async function apiFetch(url) {
             console.log(data); // this is for testing the call
             // displayResults(data);
         } else {
-            throw Error(await response.text());
+            // throw Error(await response.text());
+            console.log(`Response not ok ${await response.text()}`);
         }
     } catch (error) {
-        console.log(error);
+        //console.log(error);
+        console.log(`Error ${error.message}`)
     }
 }
 

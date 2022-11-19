@@ -1,5 +1,5 @@
 /**   Media Queries Large desktop views **/
-@media (min-width: 1100px) {
+@media (min-width: 76.5em) {
 
 
   /***** NAV MENU ****/
@@ -115,7 +115,6 @@ grid-row:2;
   font-size: 6rem;
   padding: 0 ;
   margin: 0 1rem;
-  align-self: right;
 }
 
 .temp {
@@ -149,8 +148,9 @@ main picture.heroPhoto img{width: 100%; max-height: 599px;}
   padding: 20px 10px;
   display: block;
   position: absolute;
-  top: 80%;
+  top: 60%;
   right: 10%;
+  width: 15rem;
 }
 
 .newsBox{

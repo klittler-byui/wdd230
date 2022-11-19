@@ -346,12 +346,12 @@ main picture.heroPhoto img{width:100%; }
 
 .heroBtn {
   font-size: 12px;
-  width: 10rem;
+  width: 7rem;
   padding: 10px 5px;
   display: block;
   position: absolute;
-  top: 65%;
-  right: 10%;
+  top: 45%;
+  left: 10%;
 }
 /* .heroBtn {
   width: 125px;
@@ -375,10 +375,12 @@ main picture.heroPhoto img{width:100%; }
   align-items: center;
   text-align: center;
   font-size: 55px;
+  margin-bottom: 0;
 }
 
 .weatherMinor {
   text-align: center;
+  margin: 0;
 }
 
 .weatherH3 {
@@ -388,7 +390,7 @@ main picture.heroPhoto img{width:100%; }
 
 
 .temp {
-  font-size: 45px;
+  font-size: 35px;
   padding: 0;
   margin: 0;
 }
@@ -418,23 +420,20 @@ figure {
 
 
 .weatherCap {
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 800;
   margin-top: 0;
   color:#A85751;
   text-transform: capitalize;
 }
 
-.weatherMinor {
-  margin: 0;
-}
 
 .sInput {
   margin: 0;
 }
 
 .speed {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -455,6 +454,7 @@ figure {
   text-align: center;
   height: auto;
   margin: 0;
+
 
 }
 
@@ -768,7 +768,7 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-  //border-left: red solid 6px;
+
 background-color: #EDDBC0;
 }
 
