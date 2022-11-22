@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="description" content="My Page Description">
+  <link rel="stylesheet" href="04css/11chamber-sm.css">
+  <link rel="stylesheet" href="04css/11chamber-med.css">
+  <link rel="stylesheet" href="04css/11chamber-lg.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative&family=Jost:wght@100;200;300;400;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <title>Contact | Littlerville Chamber of Commerce</title>
+</head>
+
+<body onload="getChill()">
+  <div class="heading-nav">
+    <header>
+      <div class="logo-box">
+
+        <a class="logo" href="11cindex.html"><img src="04chamberimages/LOGO-2-littlervilleCC.webp" alt="Chamber of Commerce logo" width="200"></a>
+
+        <button id="headerBtn" onclick="document.location='08join.html'">Join the Chamber</button>
+
+        <p class="headerDate"><span id="date2"></span></p>
+
+
+
+
+      </div>
+
+
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+          <li><a href="11cindex.html">Home</a></li>
+          <li><a href="07discover.html">Discover</a></li>
+          <li><a href="08join.html">Join</a></li>
+          <li><a href="09directory.html">Directory</a></li>
+          <li><a href="11contact.html">Contact</a></li>
+      </ul>
+      <div class="navSocial">
+        <a class="facebook" href="https://www.facebook.com/" target="_blank" ><img src="04chamberimages/grey-facebook.png" alt="Facebook logo" width=30></a>
+        <a class="twitter" href="https://twitter.com/?lang=en" target="_blank" ><img src="04chamberimages/grey-instagram.png" alt="Twitter logo" width=30></a>
+
+      </div>
+    </nav>
+
+
+    </header>
+    <div class="bannerContainer">
+      <div><img class="banner-pic-home" src="04chamberimages/phonebooth2.webp" alt="View of a front door with a mail slot"></div>
+      <!-- <h1 class="welcomeBanner CONTACTwb">We'd love to hear from you</h1> -->
+    </div>
+
+    <main class="contactMain">
+      <h2 class="contact">Contact the Chamber</h2>
+      <hr>
+      <div  class="contactPage">
+
+
+
+
+      <div class="contactForm">
+        <h3>Contact us</h3>
+        <form method="get" action="memberThanks.html">
+          <fieldset>
+            <label class="top">First Name*<input type="text" name="fname" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" required></label>
+            <label class="top">Mobile<input type="tel" name="mobile" placeholder="6025551234"></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="yourname@email.com" required></label>
+            <div>
+              <label class="top">How can we help you?*</label>
+              <textarea class="top" id="contactQuestion" name="contactMessage" required></textarea>
+            </div>
+            <input type="hidden" id="lastModified" name="memFormDate" value="" >
+          <input type="submit" value="Reply to Me" class="submitBtn">
+         </fieldset>
+        </form>
+      </div>
+
+      <div class="contactInfo">
+
+        <p class="contactAdd"><strong>Address</strong></p>
+        <p class="contactA1">1313 Disneyland Drive</p>
+        <p class="conactA2">Littlerville, AZ 85142</p>
+        <iframe class="smallMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.773751355429!2d-111.63647525379731!3d33.24478835377228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872a4d171f1a9583%3A0x78ff06fc86b49804!2sQueen%20Creek%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1668898869773!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br class="contactBr1">
+        <p class="contactP"><strong>Phone</strong></p>
+        <p class="contactPno">(480) 123-4567</p>
+        <br class="contactBr2">
+        <p class="contactEmail"><strong>Email</strong></p>
+        <a class="contactEmailAdd" href="mailto:chamber@littlerville.org">chamber@littlerville.org</a>
+        <br>
+
+       <!-- <iframe class="bigMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.773751355429!2d-111.63647525379731!3d33.24478835377228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872a4d171f1a9583%3A0x78ff06fc86b49804!2sQueen%20Creek%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1668898869773!5m2!1sen!2sus" width="800" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+
+      </div>
+
+
+    </div>
+    </main>
+    <br>
+
+
+
+
+
+  <footer>
+    <a class="footLogo" href="11cindex.html">
+      <img src="04chamberimages/CClogo-WHITE.png" alt="Chamber of Commerce logo" style="width:175px"></a>
+
+    <div class="footTop">
+      <div class="address">
+       <p class="addLine1">1313 Disneyland Drive</p>
+       <p class="addLine2">Littlerville, Arizona</p>
+      </div>
+      <div class="emailPhone">
+       <p class="phone">Tel:  480.123.4567</p>
+        <a class="email" href="mailto:info@littlerville.org" target="_blank">info@littlerville.org</a>
+      </div>
+      <div class="map">
+      <a class="locMap" href="https://goo.gl/maps/cY5Z1T9skwNxipWbA" target="_blank">Location Map</a>
+    </div>
+    <div>
+      <a class="attributions" href="attributions.html">Site Attributions</a>
+    </div>
+      </div>
+
+    <hr>
+    <div class="footBot">
+       <p>&copy; <span id="copyYr"></span> Littlerville Chamber of Commerce   |  Kori Littler  |  WDD 230 Project  |  Last Updated: <span id="date1"></span></p>
+     </div>
+      </footer>
+</div>
+  <script src="04js/localStorage.js"></script>
+  <script src="04js/06chamber.js" ></script>
+  <script src="04js/lazyloadChamber.js" defer></script>
+
+
+
+</body>
+</html>
