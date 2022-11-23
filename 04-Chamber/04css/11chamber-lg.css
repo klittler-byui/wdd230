@@ -177,28 +177,30 @@ height: fit-content;
 .discoverPics {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .C-fig {
   grid-row: 1;
   grid-column: 1;
+  margin: 10px 10px 20px 10px;
 }
 
 .S-fig {
   grid-row: 1;
   grid-column: 2;
+  margin: 10px 10px 20px 10px;
 }
 
 .X-fig {
   grid-row: 1;
   grid-column: 3;
+  margin: 10px 10px 20px 10px;
 }
 
 .E-fig {
   grid-row: 2;
   grid-column: 1;
+  margin: 10px 10px 20px 10px;
 }
 
 
@@ -206,11 +208,13 @@ height: fit-content;
 .R-fig {
   grid-row: 2;
   grid-column: 2;
+  margin: 10px 10px 20px 10px;
 }
 
 .D-fig {
   grid-row: 2;
   grid-column: 3;
+  margin: 10px 10px 20px 10px;
 }
 
 
@@ -258,7 +262,7 @@ display: none;
   margin-left: 40px;
   display: block;
   margin-top: 0;
-  padding-top: 0;
+  /* padding-top: 0; */
 }
 
 .j-pic figHov {

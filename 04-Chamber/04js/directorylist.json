@@ -9,6 +9,7 @@
       "zip": "85142",
       "phone": "(480) 935-2796",
       "web": "oldellsworthbrewing.com",
+      "slogan" : "Start your Good from Inside",
       "memLevel": "gold"
     },
 
@@ -21,6 +22,7 @@
       "zip": "85142",
       "phone": "(480) 841-6044",
       "web": "fatcatsfun.com",
+      "slogan" : "Fun for everyone!",
       "memLevel": "silver"
     },
 
@@ -33,6 +35,7 @@
       "zip": "85142",
       "phone": "(855) 955-2534",
       "web": "aldi.us",
+      "slogan" : "Tiny prices, big flavor",
       "memLevel": "bronze"
     },
 
@@ -45,6 +48,7 @@
       "zip": "85142",
       "phone": "(480) 999-0194",
       "web": "dickeys.com",
+      "slogan" : "We are totally smokin'!",
       "memLevel": "gold"
     },
 
@@ -56,7 +60,8 @@
       "state": "AZ",
       "zip": "85142",
       "phone": "(480) 418-4346",
-      "web": "br.coffee/",
+      "web": "br.coffee",
+      "slogan" : "Life is a great cafe!",
       "memLevel": "silver"
     },
 
@@ -69,6 +74,7 @@
       "zip": "85142",
       "phone": "(480) 268-7793",
       "web": "jeremiahsice.com",
+      "slogan" : "Living life to the coolest!",
       "memLevel": "gold"
     },
 
@@ -81,6 +87,7 @@
       "zip": "85142",
       "phone": "(480)506-0888",
       "web": "harborfreight.com",
+      "slogan" : "Quality Tools. Lowest Prices.",
       "memLevel": "silver"
     },
 
@@ -92,7 +99,8 @@
       "state": "AZ",
       "zip": "85142",
       "phone": "(480) 770-4610",
-      "web": "thecottageflowersandgifts.com",
+      "web": "cottageflowers.com",
+      "slogan" : "For all of life’s celebrations.",
       "memLevel": "bronze"
     },
 
@@ -105,6 +113,7 @@
       "zip": "85142",
       "phone": "(480) 213-9968",
       "web": "clearent.com",
+      "slogan" : "Your partner for payments.",
       "memLevel": "bronze"
     }
   ]

@@ -7,7 +7,6 @@ body {
   line-height: 1.6;
   color: #1E2D2F; /* Charleston Green */
   padding: 0;
-
 }
 
 main {
@@ -66,8 +65,6 @@ p {
 }
 a {color: #679436; /* Maximum Green */}
 
-
-
 /*  NAV  */
 
 nav {
@@ -119,7 +116,6 @@ nav div {
     flex: 1 1 auto;
 }
 
-
 nav li {
   display: block;
   color: white;
@@ -141,7 +137,6 @@ nav a {
   font-family: 'Jost', sans-serif;
   font-weight: 200;
 }
-
 
 nav a:hover {
   background-color: #EDDBC0; /* Desert Sand */
@@ -182,7 +177,6 @@ nav button:hover {
   margin: 0;
 }
 
-
 button {
   background-color: #679436; /* Maximum Green */
   border: none;
@@ -215,8 +209,6 @@ button a {
   display: none;
 }
 
-
-
 /**** Logo Header box ****/
 
 .logo-box {
@@ -237,7 +229,6 @@ button a {
 
 } **/
 
-
 .headerDate {  /* Logo Header */
   display: block;
   color: grey;
@@ -247,9 +238,6 @@ button a {
 
 }
 
-
-
-
 /**  Header/Banner **/
 header {
   text-align: center;
@@ -257,26 +245,20 @@ header {
   align-content: center;
 }
 
-
 .banner-pic-home {  /* Header */
   display: none;
 }
-
 
 .welcomeBanner { /* Header */
   display: none;
 }
 
 
-
-
-
-
-/** HOME PAGE **/
+/***************** HOME PAGE ****************/
+/********************************************/
 
 .homePage {
   display: block;
-
 }
 
 .announceBanner { /* above  */
@@ -290,10 +272,11 @@ header {
   align-items: center;
   justify-content: center;
   justify-items: center;
-
 }
 
 /*******  GRID BOXES *******/
+/***************************/
+
 .homeBox {
   background-color: #EDDBC0;
   border: 1px solid #EDDBC0;
@@ -306,14 +289,12 @@ header {
   width:300px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .figure img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .homeBox a {color: #A85751; /* Redwood */}
@@ -353,6 +334,7 @@ main picture.heroPhoto img{width:100%; }
   top: 45%;
   left: 10%;
 }
+
 /* .heroBtn {
   width: 125px;
   display: flex;
@@ -385,9 +367,7 @@ main picture.heroPhoto img{width:100%; }
 
 .weatherH3 {
   text-align: center;
-
 }
-
 
 .temp {
   font-size: 35px;
@@ -402,22 +382,17 @@ main picture.heroPhoto img{width:100%; }
 }
 
 figure img {
-
 }
-
-
 
 .wStatus {
   padding: 0 1rem 0 0;
   margin: 0;
   font-size: 1.5rem;
-
 }
 
 figure {
   margin: 0;
 }
-
 
 .weatherCap {
   font-size: 16px;
@@ -427,7 +402,6 @@ figure {
   text-transform: capitalize;
 }
 
-
 .sInput {
   margin: 0;
 }
@@ -436,17 +410,16 @@ figure {
   font-size: 12px;
 }
 
-
 /*****GRID BOX - NEWS ******/
 .newsBox {
   text-align: center;
 }
 
-
 /*****GRID BOX - SPOTLIGHTS ******/
 .spotBox {
   height: auto;
 }
+
 .spotlight {
   border: 1px solid white;
   padding: 2vw;
@@ -454,8 +427,6 @@ figure {
   text-align: center;
   height: auto;
   margin: 0;
-
-
 }
 
 .joinBox {
@@ -477,9 +448,6 @@ figure {
   padding: 0;
   margin: 0;
 }
-
-
-
 
 .persona1 {
   padding: 0;
@@ -507,7 +475,6 @@ figure {
   display: none;
 }
 
-
 .hiFhide {
   display: none;
 }
@@ -525,7 +492,6 @@ figure {
 .discoverPics {
   display: flex;
   flex-direction: column;
-
 }
 
 .image__title {
@@ -537,8 +503,8 @@ figure {
   text-align: right;
 }
 
-
-/**** FOOTER ****/
+/******************** FOOTER *******************/
+/***********************************************/
 
 footer {
   display: block;
@@ -560,6 +526,7 @@ footer p {
   font-family: 'Jost', sans-serif;
   font-size: 12px;
 }
+
 footer h6 {
   margin: 45px;
   color: black;
@@ -574,11 +541,7 @@ footer img {
   margin: 0 0 5px 0;
 }
 
-
-
-
-
-/* table properties */
+/*************** table properties **************/
 
 table, th, td {
   border: 1px solid white;
@@ -596,7 +559,6 @@ table, th, td {
   vertical-align: top;
 }
 
-
 .colors td {
   height: 60px;
   vertical-align: middle;
@@ -604,7 +566,6 @@ table, th, td {
 
 .persona-table td {
   vertical-align: top;
-
 }
 
 .color-table {
@@ -619,6 +580,7 @@ table, th, td {
   grid-row: 1;
   grid-column: 1/3;
 }
+
 .colors {
   grid-row: 2;
   grid-column:1/3;
@@ -724,8 +686,8 @@ form label.para, form div,{
   padding-top: 1rem;
   color: #A85751;
   font-size: .8rem;
-
 }
+
 form label.para input, form label.para select{
   display: block;
   font-size: 1rem;
@@ -736,8 +698,8 @@ form label.para input, form label.para select{
   border-right-style: solid;
   border-radius: 6px;
   padding: .75rem;
-  padding: top; 10px;
-  color: #555;
+  padding-top: 10px;
+  color: black;
   width: 100%;
   max-width: 20rem;
   height: 100px;
@@ -812,7 +774,6 @@ table, th, td {
   border-collapse: collapse;
   padding: 10px;
   margin-bottom: 60px;
-
 }
 
 tr:hover {background-color:#EDDBC0;; /* Desert Sand */}
@@ -837,14 +798,11 @@ table {
   color: #A85751; /* Redwood */
   font-size: 14px;
   font-weight: 300;
-
 }
 
 .fieldsetMembership {
   width: 360px;
 }
-
-
 
 .memTabSpecial th {
   font-size: 24px;
@@ -852,13 +810,13 @@ table {
   color:#972D07;
   background-color: white;
 }
+
 .tilt{
   text-align: center;
   font-size: 14px;
   min-width: 50px;
   max-width: 51px;
 }
-
 
 .tilt2 {
   text-align: center;
@@ -868,11 +826,9 @@ table {
   text-align: center;
 }
 
-
 .attributes {
   margin: 0 20px;
 }
-
 
 .image__img, .image__overlay {
   max-width: 845px;
@@ -880,13 +836,12 @@ table {
 
 /************** JOIN PAGE *****************/
 
-
 .memBusPics {
   display: none;
 }
+
+
 /************** CONTACT PAGE ***************/
-
-
 .contactForm {
   width:382px;
 }
@@ -895,11 +850,10 @@ table {
   vertical-align: top;
 }
 
-.discoverMain {
+/* .discoverMain {
   width: 1200px;
   margin: 0 auto;
-}
-
+} */
 
 
 /************ ALL PAGE FORMATTING ************/
@@ -907,6 +861,8 @@ table {
   width: 1200px;
   margin: 0 auto;
 }
+
+
 
 
 
