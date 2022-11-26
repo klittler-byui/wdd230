@@ -6,23 +6,36 @@
 }
 
 .spotlight {
-/*   border: 1px solid white; */
-/*   padding: 2vw; */
+  border: 1px solid white;
+  padding: 2vw;
   align-items: center;
   text-align: center;
   height: auto;
   margin: 0;
+
 }
 
 
 .Scards {
-border: 1px solid white;
+/* border: 1px solid white; */
   margin: 0 auto;
   padding: 20px;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   min-width: 275px;
+}
+
+.smInfo {
+  font-size: 12px;
+
+}
+
+.slogan {
+  font-weight: 800;
+  color: #972D07;
+  font-style: italic;
+  margin-bottom: 15px;
 }
 
 

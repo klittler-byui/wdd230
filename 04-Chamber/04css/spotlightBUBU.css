@@ -26,6 +26,22 @@
   min-width: 275px;
 }
 
+.smInfo {
+  font-size: 12px;
+
+}
+
+.slogan {
+  font-weight: 800;
+  color: #A85751;
+  font-style: italic;
+  margin-bottom: 11px;
+}
+
+.webStyle {
+  margin-bottom: 20px;
+}
+
 
 Ssection {
   /* border: 1px solid white; */
