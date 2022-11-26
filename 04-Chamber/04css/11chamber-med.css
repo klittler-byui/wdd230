@@ -63,11 +63,11 @@ main picture.heroPhoto img{max-height: 399px;}
   grid-row: 3;
 }
 
-.spots {
+/* .spots {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(200px, auto);
-}
+} */
 
 .spot1{
   grid-column: 1;

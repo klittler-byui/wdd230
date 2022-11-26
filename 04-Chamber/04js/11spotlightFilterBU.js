@@ -25,7 +25,7 @@ function displayMembers (member) {
   let address = document.createElement('span');
   let phone = document.createElement('span');
   let web = document.createElement('a');
-  let level = document.createElement('memLevel');
+  /* let level = document.createElement('memLevel'); */
   let email = document.createElement('email');
 
   name.textContent = `${member.name}`;

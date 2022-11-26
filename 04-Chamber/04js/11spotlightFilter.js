@@ -45,6 +45,5 @@ function displayMembers (member) {
   Scard.appendChild(email);
   Scard.appendChild(web);
 
-
   document.querySelector('div.Scards').appendChild(Scard);
 }

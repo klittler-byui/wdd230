@@ -6,8 +6,8 @@
 }
 
 .spotlight {
-  border: 1px solid white;
-  padding: 2vw;
+/*   border: 1px solid white; */
+/*   padding: 2vw; */
   align-items: center;
   text-align: center;
   height: auto;
@@ -16,6 +16,7 @@
 
 
 .Scards {
+border: 1px solid white;
   margin: 0 auto;
   padding: 20px;
   display: grid;
