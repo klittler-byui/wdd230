@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1, viewport-fit=cover">
+    <link rel="shortcut icon" href="BFimages/BF Logo Favicon.webp">
+    <meta name="description" content="Bountiful Foods specializes in farm fresh organic fruit and produce.  Give our online blender a whirl and experiment with custom fruit drink combinations.">
+    <link rel="stylesheet" href="styles/fresh.css">
+    <link rel="stylesheet" href="styles/bFood.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/med.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@300&family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+
+    <title> Fresh | Bountiful Foods</title>
+  </head>
+
+  <body>
+    <div class="heading-nav"></div>
+      <header>
+
+        <nav>
+          <button id="hamburgerBtn"><span> &#9776;</span><span>x</span></button>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="location.html">Locations</a></li>
+          </ul>
+        </nav>
+
+        <!-- <div class="logo-box"> -->
+        <a class="logo" href="index.html"><img src="BFimages/BF Logo(1)(2).webp" alt="Bountiful Foods logo" width="415px"></a>
+
+
+        <button id="headerBtn" onclick="document.location='fresh.html'">Order</button>
+
+
+      </header>
+
+      <hr class="headerHR">
+      <main class="freshPage allPages">
+
+
+
+
+
+      <section id="freshBlock2">
+        <div class="freshForm">
+        <h3 id="FB2-h3">Place a Fresh Order Now!</h3>
+        <form method="get" action="memberThanks.html">
+         <fieldset class="orderDetails">
+          <div>What can we blend for you?</div>
+          <label class="radio"><input type="radio" name="blendType" value="smoothie">Smoothie</label>
+          <label class="radio"><input type="radio" name="blendType" value="Juice">Juice</label>
+          <label class="radio"><input type="radio" name="blendType" value="bowl">Bowl</label>
+
+          <div>Select 3 items for your smoothie blender:</div>
+          <select name = "mix-in-1">
+            <option value = "Fruit 1" >Fruit 1</option>
+            <option value = "Fruit 2">Fruit 2</option>
+            <option value = "Fruit 3">Fruit 3</option>
+         </select>
+
+         <select name = "mix-in-2">
+          <option value = "Fruit 1" >Fruit 1</option>
+          <option value = "Fruit 2">Fruit 2</option>
+          <option value = "Fruit 3">Fruit 3</option>
+       </select>
+
+       <select name = "mix-in-3">
+        <option value = "Fruit 1" >Fruit 1</option>
+        <option value = "Fruit 2">Fruit 2</option>
+        <option value = "Fruit 3">Fruit 3</option>
+     </select>
+
+          <div>
+            <label class="top">Additional Instructions:</label>
+            <textarea class="top" id="addInstructions" name="additionalInstructions" ></textarea>
+          </div>
+         </fieldset>
+
+
+         <fieldset class="customerInfo">
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Mobile<input type="tel" name="mobile" placeholder="6025551234"></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="yourname@email.com" required></label>
+
+          /fieldset>
+          <input type="hidden" id="lastModified" name="memFormDate" value="" >
+        <input type="submit" value="Blend It!" class="submitBtn">
+       </fieldset>
+      </form>
+      </div>
+
+        <p id="FB2-para-1">#</p>
+        <p id="FB2-para-2">#</p>
+      </section>
+
+      <section id="freshBlock1">
+        <h2 id="FB1-h2">Signature Drinks</h2>
+
+        <img id="FB1-img1" class="image_sz image_img" src="BFimages/Placeholder_portrait.webp" data-src="BFimages/StoreFront-Carlsbad-Village.webp" alt="Picture of California beach." width="200px" loading="lazy">
+      </section>
+
+
+      <section id="freshBlock3">
+        <h4 id="FB3-h4">Title</h4>
+        <p id="FB3-para-1">#</p>
+        <p id="FB3-para-2">#</p>
+      </section>
+
+
+      <section id="freshBlock4">
+        <h5 id="FB4-h5">Title</h5>
+        <p id="FB4-para-1">#</p>
+        <p id="FB4-para-2">#</p>
+      </section>
+
+
+
+
+      </main>
+
+      <footer>
+        <div class="footTop">
+
+            <div class="footNav-Med">
+              <ul>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us </a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="attributes.html">Attributions</a></li>
+              </ul>
+            </div>
+
+
+
+            <div class="footNav-sm">
+            <p><a href="fresh.html">Fresh</a></p>
+            <p><a href="about.html">About Us </a></p>
+            <p><a href="location.html">Location</a></p>
+            <p><a href="attributes.html">Attributions</a></p>
+          </div>
+
+            <hr class="footerHR">
+
+            <p>FOLLOW US:</p>
+            <div class="navSocial">
+              <a class="social facebook" href="https://www.facebook.com/" target="_blank" ><img src="BFimages/BF-Fb.png" alt="Facebook logo" width=30></a>
+              <a class="social twitter" href="https://twitter.com/?lang=en" target="_blank" ><img src="BFimages/BF-twt.png" alt="Twitter logo" width=30></a>
+              <a class="social instagram" href="https://www.instagram.com/" target="_blank" ><img src="BFimages/BF-inst.png" alt="Instagram logo" width=30></a>
+           </div>
+
+           <div class="emailPhone">
+            <p class="phone">Tel:  760.123.4567  |  <a class="email" href="mailto:info@bountifulfoods.com" target="_blank">info@bountifulfoods.com</a></p>
+           </div>
+
+          <div class="address">
+           <p class="addLine1">25 Beach Blanket Way</p>
+           <p class="addLine2">Carlsbad, CA  &nbsp; &nbsp;<a class="locMap" href="https://goo.gl/maps/1LwmZbgcChocURt1A" target="_blank">Map</a></p>
+
+          </div>
+        <div>
+
+        </div>
+          </div>
+          <br>
+
+
+
+        <div class="footBot">
+          <p>&copy; <span id="copyYr"></span> Bountiful Foods Kori Littler  |  WDD 230 Final Project  |  Last Updated: <span id="date1"></span></p>
+         </div>
+          </footer>
+    </div>
+
+      <script src="scripts/universal.js"></script>
+      <script src="scripts/nav.js"></script>
+      <script src="scripts/BFlazyloading.js"></script>
+
+  </body>
+
+</html>

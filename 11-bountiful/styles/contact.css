@@ -1,0 +1,93 @@
+.image_sz {
+  width: 100%;
+}
+
+.AB1-h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.storeHrs {
+  margin-top: 0;
+  padding-top: 0;
+  color: #00BCD4; /* Dark Aqua */
+
+}
+
+.truckTracker {
+  margin-top: 50px;
+
+}
+
+.trucks {
+  display: block;
+  max-width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+  border: 4px solid #D6F4F8; /* LightER Aqua */
+  padding: 20px;
+
+}
+
+.truckBtn {
+  align-self: center;
+  margin: 0 auto;
+}
+
+
+
+
+
+/****************** OTHER VIEWS ******************/
+/*************************************************/
+
+@media only screen and (min-width: 37.5em)  /* Tablet View */ {
+
+.truckGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+.yTruck {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.bTruck {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.oTruck {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+}
+
+
+
+@media only screen and (min-width: 64em) /* 1024px  Desktop */ {
+
+  .contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .AB4-col1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .AB4-col2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+
+}

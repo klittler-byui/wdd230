@@ -1,0 +1,151 @@
+/*************** Banner Picture ****************/
+
+.bannerContainer {
+  display: flex;
+  position: relative;
+}
+
+.banner-pic {  /* Header */
+  display: block;
+  max-width:100%;
+  }
+
+.banner-pic-Med {
+  display: none;
+}
+
+.banner-pic-Lrg {
+  display: none;
+}
+
+  .bannerCall{
+    display: block;
+    background-color: #B2EBF2; /* Light Aqua */
+    padding: 40px 10px 15px 20px;
+    text-align: left;
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    /* right: 10%; */
+    /* transform: translate(-50%, -50%); */
+  }
+
+.welcomeBanner { /* Header */
+  display: inline;
+    /* display: block;
+    position: absolute; */
+    /* bottom: 20%;
+    left: 20%;
+    transform: translate(-40%, -50%); */
+    color: #DD2C00; /* Surf Berry */
+    /*background-color: #B2EBF2; /* Light Aqua */
+}
+
+.actionBtn {
+  display: inline;
+  width: 150px;
+  padding:10px 15px;
+  font-size: 20px;
+}
+
+.actionBtn:hover {
+  border: 3px solid #00BCD4; /* Dark Aqua */
+
+}
+
+
+
+
+/*************************************/
+/*************************************/
+/********* OTHER VIEWPORTS ***********/
+/*************************************/
+@media only screen and (min-width: 507px) /*501px*/ {
+  .banner-pic {  /* Header */
+    display: block;
+    }
+
+    .bannerCall{
+      padding: 70px 40px 50px 20px;
+      position: absolute;
+      top: 35%;
+      width: 40%;
+      top: 35px;
+      left: 0px
+
+      /* right: 10%; */
+      /* transform: translate(-50%, -50%); */
+    }
+
+    .welcomeBanner {
+      font-size: 2.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 37.5em) /*501px*/ {
+
+  .banner-pic {  /* Header */
+    display: none;
+    }
+
+  .banner-pic-Med {
+    display: block;
+    max-width:100%;
+  }
+
+  .bannerCall{
+    padding: 70px 40px 50px 20px;
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    top: 35px;
+    left: 0px
+
+    /* right: 10%; */
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .welcomeBanner {
+    font-size: 2.5rem;
+  }
+  .actionBtn {
+    width: 200px;
+    height: 6rem;
+    padding:10px 15px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 64em) /* 1024px */ {
+  .banner-pic-Med {
+    display: none;
+  }
+
+  .banner-pic-Lrg {
+    display: block;
+    max-width:100%;
+  }
+  .bannerCall{
+    padding: 100px 40px 50px 20px;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 25px;
+    left: 0px
+
+    /* right: 10%; */
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .welcomeBanner {
+    font-size: 3rem;
+  }
+  .actionBtn {
+    width: 200px;
+    height: 6rem;
+    padding:10px 15px;
+    font-size: 20px;
+  }
+
+}

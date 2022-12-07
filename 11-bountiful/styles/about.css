@@ -1,0 +1,40 @@
+
+.sectionCSS{
+  margin: 20px 0 10px 0;
+}
+
+
+
+
+/****************** OTHER VIEWS ******************/
+/*************************************************/
+
+@media only screen and (min-width: 37.5em)  /* Tablet View */ {
+
+  .aboutGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .AB4-col1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .AB4-col2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .image_sz {
+    width: 100%;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 64em) /* 1024px  Desktop */ {
+
+}

@@ -1,0 +1,111 @@
+/**** FONTS ******/
+body {
+  height: 100vh;
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #434242; /* Rocky Shore */
+}
+
+header {
+  margin: 10px 20px 5px 20px;
+}
+
+main {
+  margin: 20px 15px 20px 15px;
+  padding: 0 1rem 0 1rem;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 35px;
+  color: #FF5722; /* Orange Melon */
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 35px;
+  color: #FF5722; /* Orange Melon */
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  font-weight: 250;
+  font-size: 32px;
+  color: #00BCD4; /* Dark Aqua */
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #00BCD4; /* Dark Aqua */
+  padding: 0;
+}
+
+h5 {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #DD2C00; /* Surf Berry */
+  padding: 0;
+}
+
+h6 {
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  color: #DD2C00; /* Surf Berry */
+  padding: 0;
+}
+
+p {
+  margin: 3px;
+}
+a {color: #DD2C00; /* Surf Berry */}
+
+
+
+
+
+button {
+  background-color: #00BCD4; /* Dark Aqua */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 80px;
+  max-height: 40px;
+  vertical-align: middle;
+  margin-top: 12px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+button:hover {
+  background: #B2EBF2; /* Light Aqua */
+  color: #FF5722; /* Orange Melon */
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+/************ Colors ***********/
+/* #00BCD4; /* Dark Aqua */
+/* #B2EBF2; /* Light Aqua */
+/* #FF5722; /* Orange Melon */
+/* #DD2C00; /* Surf Berry */
+/* #FFFD82; /* Canary Beach */
+/* #434242; /* Rocky Shore */

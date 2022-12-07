@@ -1,0 +1,80 @@
+/******************** FOOTER *******************/
+/***********************************************/
+
+footer {
+  display: block;
+  text-align: left;
+  color: #434242; /* Rocky Shore */
+  background-color: #B2EBF2; /* Light Aqua */
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%
+}
+
+.footTop {
+  padding: 0 20px;
+}
+
+.footBot {
+  background-color: #00BCD4;
+  padding: 20px 20px;
+  color: white;
+}
+
+.footNav-Med a, ul {
+  display: none;
+}
+
+/* .footNav-sm {
+} */
+
+footer p {
+  font-family: 'Arial', sans-serif;
+}
+footer a {
+  color: #FF5722; /* Orange Melon */
+  font-size: 12px;
+  font-family: 'Arial', sans-serif;
+}
+
+footer p {
+  margin: 0 0 5px 0;
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
+}
+
+footer h6 {
+  margin: 45px;
+  color: #434242; /* Rocky Shore */
+}
+
+
+footer img {
+  margin-right: 10px;
+}
+
+
+footer hr {
+  border: none;
+	border-bottom: 1px solid #D6F4F8;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+.locMap {
+  font-size: 10px;
+}
+.social {
+  height: 30px;
+  padding-bottom: 30px;;
+ }
+
+.navSocial {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  /* grid-row: 1;
+  grid-column: 2;
+  padding: 10px;  */
+
+}

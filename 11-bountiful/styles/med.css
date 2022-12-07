@@ -1,0 +1,24 @@
+@media only screen and (min-width: 37.5em)  /* Tablet View */ {
+
+  .footNav-Med  {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+  }
+
+  .footNav-Med a ul{
+    color: #FF5722;
+  }
+
+  .footNav-sm a {
+    margin: none;
+  }
+
+
+
+
+
+
+
+
+}

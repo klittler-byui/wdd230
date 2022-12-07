@@ -1,0 +1,62 @@
+.homeBlock1 {
+  display: block;
+  /* grid-template-columns: 1fr; */
+}
+
+.HB1-h2 {
+grid-row: 1;
+}
+
+.homeBlock1 img {
+  display: none;
+}
+
+.HB1-para1 {
+  grid-row: 3;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 37.5em)  /* Tablet View */ {
+  .homeBlock1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    /* background-color: #E6FCFF; /* Pale Ocean Froth */
+
+  }
+
+  .HB1img {
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .homeBlock1 img {
+    display: block;
+  }
+
+.HB1-copy{
+  grid-column: 2;
+  padding-right:20px;
+  margin-right: 20px;
+}
+
+.HB1-para1 {
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+
+
+  }
+
+
+
+@media only screen and (min-width: 64em) /* 1024px */ {
+
+
+
+  }
