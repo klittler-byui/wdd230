@@ -78,3 +78,31 @@ footer hr {
   padding: 10px;  */
 
 }
+
+
+
+
+@media only screen and (min-width: 37.5em)  {
+
+
+
+  .footTop {
+    margin: 20px 50px 20px 50px;
+  }
+
+  .footBot {
+    text-align: center;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 64em) /* 1024px */ {
+
+  .footTop {
+    margin: 20px 100px 20px 100px;
+  }
+
+
+}

@@ -33,24 +33,3 @@ function displayResults(weatherData) {
     captionDesc.textContent = desc;
 
 }
-
-//////////// WIND CHILL //////////////
-
-
-function wChill(windData) {
-            let s = document.querySelector('#windSpeed');
-            s.innerHTML = `${windData.wind.speed}`;
-            s = `${windData.wind.speed}`
-            t = `${windData.main.temp}`
-
-          if (t <= 50 && s > 3) {
-            let farenheit = 35.74 + 0.6215 * t - 35.75 *Math.pow(s, 0.16)  + 0.4275 * t * Math.pow(s, 0.16);
-            farenheit = farenheit.toFixed(2)
-            calcWind.innerHTML = farenheit
-
-            } else {
-              calcWind.innerHTML = "N/A";
-            }
-}
-
-apiFetch(link);

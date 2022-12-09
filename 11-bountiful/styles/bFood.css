@@ -29,6 +29,7 @@ h2 {
   font-size: 30px;
   color: #FF5722; /* Orange Melon */
   padding: 0;
+  margin: 0 0;
 }
 
 h3 {
@@ -68,7 +69,7 @@ hr.headerHR {
 }
 
 p {
-  margin: 3px;
+  margin: 32px 0;
 }
 a {color: #DD2C00; /* Surf Berry */}
 

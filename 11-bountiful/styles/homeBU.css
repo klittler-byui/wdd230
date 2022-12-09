@@ -69,8 +69,11 @@ grid-row: 1;
   align-items: center;
 }
 
-.localStorage-field {
-  font-size: 16px;
+.localS-blend {
+  background-color: 00BCD4; /* Dark Aqua */
+}
+.localS-blend h4 {
+  color: white;
 }
 
 
@@ -126,7 +129,7 @@ homeBlock3 h2 {
 
 .homeBlock4 h4 {
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   margin: 0;
 }
 
@@ -182,65 +185,6 @@ homeBlock3 h2 {
   grid-template-columns: 1fr 1fr;
   gap: 32px;
 }
-
-.homeBlock4 {
-  display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.HB4-col1 {
-  grid-column: 1;
-  grid-row: 1/7;
-}
-
-.3dayFore {
-  display: flex;
-  text-align: left;
-  background-color: pink;
-
-}
-
-.3-dayF h4 {
-
-}
-.HB4-day1 {
-  grid-column: 2;
-  grid-row: 1;
-  justify-content: left;
-  text-align: left;
-  align-content: left;
-}
-
-.HB4-day2 {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.HB4-day3 {
-  grid-column: 2;
-  grid-row: 3;
-}
-
-.HB4-day4 {
-  grid-column: 2;
-  grid-row: 4;
-}
-
-.HB4-day5 {
-  grid-column: 2;
-  grid-row: 5;
-}
-
-.HB4-day6 {
-  grid-column: 2;
-  grid-row: 6;
-}
-
-.weath-HR {
-  border-top: 1px solid #D6F4F8;
-}
-
-
 
 
 .homeBlock5 {
