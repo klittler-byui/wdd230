@@ -55,7 +55,7 @@
 
           <div class="freshForm">
             <h3 id="FB2-h3">Place a Fresh Order Now!</h3>
-          <form method="get" action="freshOrder.html">
+          <form method="post"  action="/freshconfirmation.php" id="orderDrink">
            <fieldset class="orderDetails">
 
 
@@ -83,19 +83,19 @@
 
            <fieldset class="customerInfo">
 
-            <label class="top">First Name*<input type="text" name="fname" required></label>
+            <label class="top">First Name*<input type="text" name="fname" id='fname' required></label>
 
-            <label class="top">Last Name*<input type="text" name="lname" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" id="lname" required></label>
 
-            <label class="top">Mobile*<input type="tel" name="mobile" placeholder="6025551234" required></label>
+            <label class="top">Mobile*<input type="tel" name="mobile" id="mobile" placeholder="6025551234" required></label>
 
-            <label class="top">Email*<input type="email" name="email" placeholder="yourname@email.com" required></label>
+            <label class="top">Email*<input type="email" name="email" id="email" placeholder="yourname@email.com" required></label>
 
-            <input type="hidden" id="lastModified" name="memFormDate" value="" >
+            <input type="hidden" id="lastModified" name="memFormDate" value="" id="memFormDate">
 
             <input onclick="clickCounter()" type="submit" id="mySubmit" value="Blend It!" class="submitBtn" >
 
-            <p id="bCount">Times you have Blended with us: <span id="myBlends">0</span></p>
+            <p class="bCount">Times you have Blended with us: <span id="myBlends">0</span></p>
 
 
             </fieldset>

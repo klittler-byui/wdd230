@@ -19,13 +19,14 @@
 
 }
 
-.recipe li {
-  color: #434242; /* Rocky Shore */
-  font-size: 14px;
-}
-
-.theRecipes {
-  display: none;
+.bCount {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #00BCD4; /* Dark Aqua */
+  background-color: #FFFD82; /* Canary Beach */
+  padding:4px;
+  margin:5px 0;
 }
 
 /************* FORM ***************/
