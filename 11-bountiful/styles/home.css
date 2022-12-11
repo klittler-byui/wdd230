@@ -107,20 +107,20 @@ homeBlock3 h2 {
   margin: 0 20px;
 }
 
-
-
 .homeBlock4 p {
   font-size: 120px;
   color: white;
   margin-bottom: 0;
   margin: 0;
-
+  padding-top: 0;
 }
 
 .homeBlock4 h2 {
   font-size: 80px;
+  line-height: 80px;
   font-weight: 100;
   margin: 0;
+  padding: 10px 0 0 0;
   color: white;
 }
 
@@ -130,6 +130,9 @@ homeBlock3 h2 {
   margin: 0;
 }
 
+.weath-HR {
+  border-top: 1px solid #D6F4F8;
+}
 
 
 .smoothie-pic {
@@ -147,6 +150,34 @@ homeBlock3 h2 {
 
 .homeBlock5 {
   display: block;
+}
+
+.homeBlock4 h2 {
+  font-size: 70px;
+  font-weight: 100;
+  margin: 0;
+  color: white;
+}
+
+.homeBlock4 h4 {
+  color: white;
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  text-transform: capitalize;
+  line-height: 35px;
+}
+
+.smallWeather {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
+.humid {
+  padding-bottom: 20px;
 }
 
 
@@ -183,62 +214,44 @@ homeBlock3 h2 {
   gap: 32px;
 }
 
+
 .homeBlock4 {
-  display: grid;
-    grid-template-columns: 1fr 2fr;
+  margin: 32px 0;
+    display: block;
+    background-color: #B2EBF2; /* Light Aqua */
+    padding: 40px 20px;
+    text-align: center;
 }
 
-.HB4-col1 {
-  grid-column: 1;
-  grid-row: 1/7;
+.curTemp {
+  background-color: #00BCD4; /* Dark Aqua */
+  margin: 0 20px;
 }
 
-.3dayFore {
-  display: flex;
-  text-align: left;
-  background-color: pink;
+
+
+.homeBlock4 p {
+  font-size: 100px;
+  color: white;
+  margin-bottom: 0;
+  margin: 0;
 
 }
 
-.3-dayF h4 {
 
-}
-.HB4-day1 {
-  grid-column: 2;
-  grid-row: 1;
-  justify-content: left;
-  text-align: left;
-  align-content: left;
+.smoothie-pic {
+  margin: 0 0 0 0;
+  padding: 0;
 }
 
-.HB4-day2 {
-  grid-column: 2;
-  grid-row: 2;
+.smoothie-caption {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 18px;
+  line-height: 20px;;
+  color: #DD2C00; /* Surf Berry */
+  margin: 0 0 40px 0;
 }
 
-.HB4-day3 {
-  grid-column: 2;
-  grid-row: 3;
-}
-
-.HB4-day4 {
-  grid-column: 2;
-  grid-row: 4;
-}
-
-.HB4-day5 {
-  grid-column: 2;
-  grid-row: 5;
-}
-
-.HB4-day6 {
-  grid-column: 2;
-  grid-row: 6;
-}
-
-.weath-HR {
-  border-top: 1px solid #D6F4F8;
-}
 
 
 
@@ -353,6 +366,64 @@ homeBlock3 h2 {
   .HB3-c2 {
     grid-column: 2;
   }
+
+
+
+/************** Home Block 4 - WEATHER ****************/
+
+.homeBlock4 {
+  display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.HB4-col1 /* CURRENT TEMP BOX */ {
+  grid-column: 1;
+  grid-row: 1/7;
+}
+
+
+.HB4-day1 /* Start of 3-DAY FORECAST */ {
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: start;
+  justify-items: start;
+  text-align: left;
+  align-content: left;
+  align-items: left;
+}
+
+/******** May not be using for cards....
+.HB4-day2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.HB4-day3 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.HB4-day4 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.HB4-day5 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.HB4-day6 {
+  grid-column: 2;
+  grid-row: 6;
+}
+**********************/
+
+
+
+
+
+
 
 
   }

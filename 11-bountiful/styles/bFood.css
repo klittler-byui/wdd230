@@ -27,7 +27,7 @@ h1 {
 h2 {
   font-family: 'Covered By Your Grace', cursive;
   font-size: 30px;
-  color: #FF5722; /* Orange Melon */
+  color: #DD2C00; /* Surf Berry */
   padding: 0;
   margin: 0 0;
 }
@@ -74,7 +74,15 @@ p {
 a {color: #DD2C00; /* Surf Berry */}
 
 
-
+.bCount {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #00BCD4; /* Dark Aqua */
+  background-color: #FFFD82; /* Canary Beach */
+  padding:4px;
+  margin:5px 0;
+}
 
 
 button {

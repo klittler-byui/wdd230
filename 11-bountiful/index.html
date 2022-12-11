@@ -80,6 +80,7 @@
 
             <div id="HB2-c1">
               <h2>Let's Blend!</h2>
+              <p id="bCount">Times you have Blended with us: <span id="myBlends">0</span></p>
               <p> Choose from wholesome, organic, farm fresh produce to blend the perfect drink to invigorate your mind and body!  Create a new blend or chose from our fan favorites. Either way, your belly will thank you!
               </p>
 
@@ -87,7 +88,7 @@
 
             <button id="HB2-c1-Btn"><a href="fresh.html">ORDER</a></button>
 
-            <h4 id="localStorage-field"> Local storage input goes here</h4>
+
 
           </div>
 
@@ -143,47 +144,28 @@
           <section class="homeBlock4 weatherBox">
 
             <div class="curTemp" id="HB4-col1">
-                <h2 id="weathLOC">Carlsbad</h2>
-                <p id="weathTEMP"><span id="current-temp"></span> &deg;</p>
-                <h4>Current Condition</h4>
-                <h4 id="humid">Humidity: <span id="#"></span></h4>
-                <figure>
-                    <img class="weatherImg" src="" alt="" id="weather-icon" />
-                    <figcaption class="weatherCap"></figcaption>
-                </figure>
-              </div>
+              <h2 id="weathLOC">Carlsbad</h2>
 
-              <div class="3dayFore">
+              <p id="weathTEMP"><span id="current-temp"></span>&deg;</p>
 
-                <div id="HB4-day1">
-                  <h3>3-day Forecast:</h3>
-                <hr class="weath-HR">
-                </div>
 
-                <div id="HB4-day2">
-                  <h4>tomorrow: <span id="day2"></span></h4>
-                  <hr class="weath-HR">
-                </div>
-
-                <div id="HB4-day3">
-                  <h4>the next day: <span id="day3"></span></h4>
-                  <hr class="weath-HR">
-                </div>
-
-                <div id="HB4-day4"></div>
-                <h4>the day after: <span id="day4"></span></h4>
-                <hr class="weath-HR">
-
-                <div id="HB4-day5"></div>
-                <h4>the day after: <span id="day5"></span></h4>
-                <hr class="weath-HR">
-
-                <div id="HB4-day6"></div>
-                <h4>the day after: <span id="day5"></span></h4>
-                <hr class="weath-HR">
+              <h4><span id="condition"></span></h4>
+              <h6 class="smallWeather" id="high-low">High: <span id="high"></span> | Low: <span id="low"></span>
+              <h6 class="smallWeather" id="humid">Humidity: <span id="humidity"></span></h6>
+              &nbsp;
             </div>
 
-            </section>
+            <div class="3dayFore">
+
+               <div id="HB4-day1">
+                 <h3>5-day Forecast:</h3>
+
+               </div>
+
+                   <div id="forecastCards"></div>
+
+                  </div>
+                  </section>
 
 
 
@@ -272,7 +254,7 @@
       <script src="scripts/nav.js"></script>
       <script src="scripts/BFlazyloading.js"></script>
       <script src="scripts/currentTemp.js"></script>
-      <script src=""></script>
+      <script src="scripts/blendCount.js"></script>
 
 
 

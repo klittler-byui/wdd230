@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 let calcWind = document.querySelector('#windChill');
 
-const link = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=95f9751af00a99f70d9bd758841f2220&units=imperial"
+const link = "https://api.openweathermap.org/data/2.5/onecall?q=Carlsbad&exclude=current,minutely,hourly,alerts&appid=95f9751af00a99f70d9bd758841f2220&units=imperial"
 
 console.log(link);
 
