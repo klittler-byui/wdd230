@@ -5,7 +5,7 @@ function clickCounter() {
     } else {
       localStorage.clickcount = 1;
     }
-    document.getElementById("myBlends").innerHTML =  localStorage.clickcount + " time(s)";
+    document.getElementById("myBlends").innerHTML =  localStorage.clickcount;
   }
   else {
     document.getElementById("myBlends").innerHTML = "Sorry, your browser does not support web storage...";

@@ -2,7 +2,7 @@
 <html lang="en-us">
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intitial-scale=1, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="shortcut icon" href="BFimages/BF Logo Favicon.webp">
     <meta name="description" content="Bountiful Foods specializes in farm fresh organic fruit and produce.  Give our online blender a whirl and experiment with custom fruit drink combinations.">
     <link rel="stylesheet" href="styles/fresh.css">
@@ -55,7 +55,7 @@
 
           <div class="freshForm">
             <h3 id="FB2-h3">Place a Fresh Order Now!</h3>
-          <form method="post"  action="/freshConfirmation.php" id="orderDrink">
+          <form name="myform" id="my_form" class="form" method="get"  id="orderDrink" action="" onsubmit="orderReceipt()">
            <fieldset class="orderDetails">
 
 
@@ -69,9 +69,9 @@
 
 
             <label id="fruitChoices">Select 3 ingredients for your smoothie blender:
-        <select id="fruitSelect1"></select>
-        <select id="fruitSelect2"></select>
-        <select id="fruitSelect3"></select>
+        <select name="fruitSelect1" id="fruitSelect1"></select>
+        <select name="fruitSelect2" id="fruitSelect2"></select>
+        <select name="fruitSelect3" id="fruitSelect3"></select>
       </label>
 
             <div>
@@ -91,17 +91,31 @@
 
             <label class="top">Email*<input type="email" name="email" id="email" placeholder="yourname@email.com" required></label>
 
-            <input type="hidden" id="lastModified" name="memFormDate" value="" id="memFormDate">
+            <input type="hidden" id="lastModified" name="memFormDate" value="" >
 
-            <input onclick="clickCounter()" type="submit" id="mySubmit" value="Blend It!" class="submitBtn" >
-
-            <p class="bCount">Times you have Blended with us: <span id="myBlends">0</span></p>
-
-
+            <input onclick="clickCounter(); getDataForm(); return false" type="submit" id="mySubmit" value="Blend It!" class="submitBtn" >
             </fieldset>
-
-
         </form>
+
+
+
+        <div id="thank_you" style="display: none;">
+          <h3 id="Order-received">Order Received!</h3>
+          <p class="bCount">This is your <span id="myBlends">0</span> blend with us!</p>
+
+          <p class="thank-you">Thanks <span id="fnameRES"></span>!</p>
+
+          <p class="thank-you"><strong>Order date: </strong><span id="dateRES"></span></p>
+          <p class="thank-you"><strong>Pick-up location:</strong> <span id="locRES"></span></p>
+          <p class="thank-you"><strong>Mobile:</strong> <span id="mobileRES"></span></p>
+          <p class="thank-you"><strong>Email:</strong> <span id="emailRES"></span></p>
+          <p class="thank-you"><strong>Ingredients:</strong> <span id="fruit1RESP"></span>, <span id="fruit2RESP"></span>, and <span id="fruit3RESP"></span>.</p>
+          <p class="thank-you"><strong>Special instructions:</strong> <span id="insRES"></span></p>
+          &nbsp;
+          <h6 class="thank-you">You're gonna love what we blend up for you.  If you have any questions, call us at 760.123.4567.</h6>
+
+          <button id="noBtn" onclick="document.location='fresh.html'">New Order</button>
+        </div>
             </section>
 
 
@@ -228,6 +242,7 @@
       <script src="scripts/BFlazyloading.js"></script>
       <script src="scripts/drinks.js"></script>
       <script src="scripts/blendCount.js"></script>
+      <script src="scripts/formResponse.js"></script>
 
   </body>
 

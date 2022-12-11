@@ -29,6 +29,17 @@
   margin:5px 0;
 }
 
+#Order-received{
+  color:#FF5722; /* Orange Melon */
+}
+
+#thank_you {
+  color:#434242;
+}
+
+#thank_you button{
+  width: 100px;
+}
 /************* FORM ***************/
 .freshform {
   background-color: #B2EBF2; /* Light Aqua */

@@ -104,8 +104,13 @@ button {
 }
 
 button:hover {
-  background: #B2EBF2; /* Light Aqua */
-  color: #FF5722; /* Orange Melon */
+  background:  #FF5722; /* Orange Melon */
+  color: #B2EBF2; /* Light Aqua */
+  vertical-align: middle;
+  margin-top: 12px;
+  margin-right: 0;
+  margin-left: auto;
+  padding: 10px 15px;
 }
 
 button a {
