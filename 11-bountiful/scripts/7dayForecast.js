@@ -1,7 +1,5 @@
 ///////// 7-DAY FORECAST //////////////
 ///////////////////////////////////
-///////// 7-DAY FORECAST //////////////
-///////////////////////////////////
 
 fetchForecast = function () {
 	var endpoint =
@@ -37,7 +35,7 @@ fetchForecast = function () {
 						<h4>${dayname}</h4>
 						<div class="forecast-day--temp">${temp}<sup>°F</sup></div>
 
-            <figure class="weatherICON">
+            <figure>
                 <img src="${iconsrc}" alt="${descr} icon" id="weather-icon" />
             </figure>
             <p class="wDescr">${descr}</p>
