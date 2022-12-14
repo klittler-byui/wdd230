@@ -91,6 +91,7 @@ homeBlock3 h2 {
     background-color: #B2EBF2; /* Light Aqua */
     padding: 40px 20px;
     text-transform: capitalize;
+
 }
 
 
@@ -121,7 +122,11 @@ homeBlock3 h2 {
 
 .curTemp {
   background-color: #00BCD4; /* Dark Aqua */
-  margin: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
 }
 
 
@@ -156,7 +161,8 @@ homeBlock3 h2 {
   /* padding: 10px; */
   transition: all 0.5s;
   text-align: left;
-  margin: 0 auto;
+  margin: 5px auto 0 auto;
+  padding: 0  25px;
 }
 
 .forecast-day:hover {
@@ -164,19 +170,21 @@ homeBlock3 h2 {
   cursor: pointer;
 }
 
-.forecast-day h6 {
+/*************.forecast-day h6 {
   color: #888;
-  /* margin-top: 5px; */
-}
-.forecast-day h5 {
+  /* margin-top: 5px;
+} *************/
+/********.forecast-day h5 {
   font-size: 18px;
   text-transform: capitalize;
   color: #888;
-}
+} *************/
+
 .forecast-day h4 {
   color: #FF5722; /* Orange Melon */
   font-size: 25px;
   font-weight: 500;
+
 }
 .forecast-day p {
   font-size: 18px;
@@ -201,6 +209,7 @@ homeBlock3 h2 {
   color: color: #888;
   font-size: 24px;
 }
+
 
 
 
