@@ -7,7 +7,7 @@ let high = document.querySelector('#high');
 let low = document.querySelector('#low');
 
 
-const link = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=95f9751af00a99f70d9bd758841f2220&units=imperial"
+const link =  "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=95f9751af00a99f70d9bd758841f2220&units=imperial"
 
 console.log(link);
 

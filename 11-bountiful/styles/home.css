@@ -16,8 +16,6 @@ grid-row: 1;
   grid-row: 3;
 }
 
-
-
 .homeBlock2 {
   display: block;
   background-color: #B2EBF2; /* Light Aqua */
@@ -32,7 +30,6 @@ grid-row: 1;
   border: 1px solid white;
   padding: 32px 10px;
   margin: 20px 0 0 0;
-
 }
 
 .BlenderCards button {
@@ -60,8 +57,6 @@ grid-row: 1;
   margin: 10px 0 0 0;
 }
 
-
-
 .HB2-c2 {
   justify-content: center;
   align-items: center;
@@ -70,9 +65,6 @@ grid-row: 1;
 .localStorage-field {
   font-size: 16px;
 }
-
-
-
 
 .homeBlock3 {
   margin: 32px 0;
@@ -90,30 +82,27 @@ homeBlock3 h2 {
   margin: 40px 0;
 }
 
+
+/********** Weather Starts **************/
+
 .homeBlock4 {
   margin: 32px 0;
     display: block;
     background-color: #B2EBF2; /* Light Aqua */
-
     padding: 40px 20px;
-    text-align: center;
-
+    text-transform: capitalize;
 }
 
-.curTemp {
-  background-color: #00BCD4; /* Dark Aqua */
-  margin: 0 20px;
-}
 
-.homeBlock4 p {
-  font-size: 120px;
-  color: white;
+.curTemp p {
+  color: #FF5722; /* Orange Melon */
   margin-bottom: 0;
+  font-size: 100px;
   margin: 0;
-  padding-top: 0;
+  padding: 0;
 }
 
-.homeBlock4 h2 {
+.curTemp h2 {
   font-size: 80px;
   line-height: 80px;
   font-weight: 100;
@@ -122,15 +111,111 @@ homeBlock3 h2 {
   color: white;
 }
 
-.homeBlock4 h4 {
+.curTemp h4 {
   color: white;
-  font-size: 20px;
-  margin: 0;
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  text-transform: capitalize;
+  line-height: 30px;
 }
+
+.curTemp {
+  background-color: #00BCD4; /* Dark Aqua */
+  margin: 0 20px;
+}
+
 
 .weath-HR {
   border-top: 1px solid #D6F4F8;
+}.homeBlock4 h2 {
+  font-size: 70px;
+  font-weight: 100;
+  margin: 0;
+  color: white;
 }
+
+.smallWeather {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
+.humid {
+  padding-bottom: 20px;
+}
+
+/************* Forecast **************/
+.forecast-day {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  /* justify-content: space-between; */
+  border-bottom: 1px solid white;
+  /* padding: 10px; */
+  transition: all 0.5s;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.forecast-day:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.forecast-day h6 {
+  color: #888;
+  /* margin-top: 5px; */
+}
+.forecast-day h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #888;
+}
+.forecast-day h4 {
+  color: #FF5722; /* Orange Melon */
+  font-size: 25px;
+  font-weight: 500;
+}
+.forecast-day p {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #888;
+}
+.forecast-day figure {
+  margin: 0;
+  padding: 0;
+}
+
+.wDescr {
+  padding: 0;
+  margin: 0;
+}
+
+.forecast-item:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.forecast-day--temp {
+  color: color: #888;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************* END Forecast **************/
+
+
+
 
 
 .smoothie-pic {
@@ -149,38 +234,6 @@ homeBlock3 h2 {
 .homeBlock5 {
   display: block;
 }
-
-.homeBlock4 h2 {
-  font-size: 70px;
-  font-weight: 100;
-  margin: 0;
-  color: white;
-}
-
-.homeBlock4 h4 {
-  color: white;
-  font-size: 30px;
-  margin: 0 0 10px 0;
-  text-transform: capitalize;
-  line-height: 35px;
-}
-
-.smallWeather {
-  color: white;
-  font-size: 20px;
-  font-weight: 100;
-  margin: 0;
-  text-transform: capitalize;
-  line-height: 25px;
-}
-
-.humid {
-  padding-bottom: 20px;
-}
-
-
-
-
 
 .smoothie-pic {
   margin: 0 0 0 0;
@@ -236,13 +289,6 @@ homeBlock3 h2 {
 
 
 
-.homeBlock4 p {
-  font-size: 100px;
-  color: white;
-  margin-bottom: 0;
-  margin: 0;
-
-}
 
 
 .smoothie-pic {
@@ -258,16 +304,11 @@ homeBlock3 h2 {
   margin: 0 0 40px 0;
 }
 
-
-
-
-
 .homeBlock5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
-
 
 .smoothie-c1 {
   display: block;
@@ -350,8 +391,6 @@ homeBlock3 h2 {
     grid-column: 4;
     border-left: 1px solid #D6F4F8;
   }
-
-
 
   .homeBlock3 {
     display: grid;

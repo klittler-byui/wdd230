@@ -40,21 +40,3 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
-
-
-
-
-// TUES WED HERO BANNER //
-
-
-let bannerDay = new Date().getDay();
-const announcement = document.querySelector('#announcement');
-if (bannerDay === 1 || bannerDay === 2){
-announcement.style.display = 'block';
-} else{
-announcement.style.display = 'none';
-}
-const close = document.querySelector('#close');
-close.addEventListener('click', () => {
-banner.style.display = 'none';
-})
